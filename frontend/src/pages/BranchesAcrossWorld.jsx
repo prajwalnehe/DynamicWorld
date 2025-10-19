@@ -6,57 +6,57 @@ const BranchesWorld = () => {
     {
       name: "Ahmedabad",
       location: "Suraj Complex (Drive-In Road)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/10/Ahmedabad.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788525/andra_pradesh_gk79mj.webp",
     },
     {
       name: "Raipur",
       location: "Ashirwad Tower (G.E. Road)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/10/raipur.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788538/raipur_upopy5.webp",
     },
     {
       name: "Chennai",
       location: "Anandha Building (Mamballam West)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/11/Chennai.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788528/Chennai_yguqg7.webp",
     },
     {
       name: "Kerala",
       location: "Thangassery (Kollam)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/11/Kerala.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788534/Kerala_bpglzg.webp",
     },
     {
       name: "Andhra Pradesh",
       location: "Annamaiah (Tirupati)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/10/sri-ranganathasvamy.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788525/andra_pradesh_gk79mj.webp",
     },
     {
       name: "Bangalore",
       location: "Opening Shortly",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/10/bangalore.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788525/bangalore_oaxse9.webp",
     },
     {
       name: "Gurgaon",
       location: "Sector 39 (Gurgaon)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2024/07/Gurgaon.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788532/Gurgaon_h9mqgc.webp",
     },
     {
       name: "Faridabad",
       location: "5M-116 NIT (Faridabad)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2024/07/Faridabad.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788531/Faridabad_micidl.webp",
     },
     {
       name: "Canada",
       location: "Toronto (ON)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/10/canada.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788527/canada_ewhi0s.webp",
     },
     {
       name: "Oman",
       location: "AL Nahdah (Muscat)",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/11/Oman.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788536/Oman_zkxobn.webp",
     },
     {
       name: "Dubai",
       location: "Opening Shortly",
-      img: "https://i0.wp.com/dynamicworld.in/wp-content/uploads/2023/10/dubai.png",
+      img: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760788530/dubai_qggssx.webp",
     },
   ];
 
@@ -64,7 +64,6 @@ const BranchesWorld = () => {
     // Responsive Padding and Background
     <div className="bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 py-12 sm:py-16 px-4">
       <div className="max-w-7xl mx-auto">
-        
         {/* Section Header: Adjusted text and spacing for better mobile flow */}
         <div className="text-center mb-10 sm:mb-12">
           {/* Icon Box */}
@@ -119,7 +118,9 @@ const BranchesWorld = () => {
                 {/* Location: Adjusted font and icon size */}
                 <div className="flex justify-center items-center gap-1 mt-1 text-xs text-slate-500">
                   <MapPin className="w-3 h-3 text-blue-500 flex-shrink-0" />
-                  <p className="truncate px-1" title={branch.location}>{branch.location}</p>
+                  <p className="truncate px-1" title={branch.location}>
+                    {branch.location}
+                  </p>
                 </div>
               </div>
             </div>

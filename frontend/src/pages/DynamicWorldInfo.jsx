@@ -150,16 +150,17 @@ const DynamicWorldInfo = () => {
               </div>
             </div>
             <div className="flex flex-wrap gap-2">
-              <LinkButton href={data.website}>🌐 Visit Website</LinkButton>
               <LinkButton href={`tel:${data.headOffice.phone}`} variant="soft">
                 📞 Call
               </LinkButton>
-              <LinkButton
-                href={`mailto:${data.headOffice.email}`}
-                variant="outline"
-              >
-                ✉️ Email
-              </LinkButton>
+              {data?.headOffice?.email && (
+                <LinkButton
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support@dynamicworld.in"
+                  variant="outline"
+                >
+                  ✉️ Email
+                </LinkButton>
+              )}
             </div>
           </div>
 

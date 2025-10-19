@@ -68,12 +68,20 @@ const DynamicWorldPortal = () => {
         setIsLoading(false);
       }
     })();
+
+    // cleanup any in-flight request on unmount
+    return () => {
+      if (reqAbortRef.current) {
+        reqAbortRef.current.abort();
+      }
+    };
   }, [handleApi01, handleApi02]);
 
   const vocationCourses = useMemo(
     () => ["DVOC", "BVOC", "MVOC", "DIPLOMA", "SKILL COURSE", "UPGRAD"],
     []
   );
+
   const regularFullTimeEducation = useMemo(
     () => [
       "Pillai College of Engineering",
@@ -122,18 +130,12 @@ const DynamicWorldPortal = () => {
     "Ireland",
     "Norway",
     "NewZealand",
-    "Singapure",
+    "Singapore",
     "Sweden",
   ];
 
   const studyAbroad = useMemo(
-    () => [
-      "Home",
-      "Immigration",
-      "Visa Services",
-      "Attestation & Apostile",
-      "Online & Home Tuition",
-    ],
+    () => ["Home", "Immigration", "Visa Services", "Attestation & Apostile"],
     []
   );
 
@@ -141,6 +143,8 @@ const DynamicWorldPortal = () => {
     () => [
       {
         title: "Career Guidance",
+        type: "Career Guidance",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/careerGuidance_ajhz4v.png",
         items: [
           "Career Counseling",
           "Job Opportunities",
@@ -151,32 +155,43 @@ const DynamicWorldPortal = () => {
       {
         title: "Online Universities",
         type: "Online University",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/laptop_joyihw.png",
         items: onlineUniversity,
       },
       {
         title: "Distance University",
         type: "Distance University",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/distanceUniversities_t3ewbc.png",
         items: distanceUniversity,
       },
       {
         title: "Vocational Courses",
         type: "Vocational Courses",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/vocationalCourses_zeervr.png",
         items: vocationCourses,
       },
       {
         title: "Regular Admission",
         type: "Regular Admission",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/regularAdmission_ahdiqj.png",
         items: regularFullTimeEducation,
       },
       {
         title: "College Admission",
         type: "College Admission",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/collegeAdmission_qjpy1h.png",
         items: collegeAdmission,
       },
-      { title: "Study Abroad", type: "Study Abroad", items: studyAbroad },
+      {
+        title: "Study Abroad",
+        type: "Study Abroad",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779899/studyAbroad_cbkald.png",
+        items: studyAbroad,
+      },
       {
         title: "Study Abroad Countries",
         type: "Study Abroad Countries",
+        url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/studyAbroadCountries_wswi8l.png",
         items: countries,
       },
     ],
@@ -195,14 +210,22 @@ const DynamicWorldPortal = () => {
     setExpandedItems((prev) => ({ ...prev, [index]: !prev[index] }));
   }, []);
 
-  // 🔽 helper: smooth scroll to the main content container
+  // ✅ robust smooth scroll that waits for layout to settle and accounts for sticky headers
   const scrollToMain = useCallback(() => {
-    // use ref if present; fallback to id
     const target =
       mainSectionRef.current || document.getElementById("main-section");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    if (!target) return;
+
+    const HEADER_OFFSET = 72; // adjust to your sticky header height if needed
+
+    // Wait two frames so any sidebar expand/collapse & data loads can reflow first
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const rect = target.getBoundingClientRect();
+        const absoluteTop = rect.top + window.scrollY - HEADER_OFFSET;
+        window.scrollTo({ top: absoluteTop, behavior: "smooth" });
+      });
+    });
   }, []);
 
   const handleItemClick = useCallback(
@@ -210,9 +233,13 @@ const DynamicWorldPortal = () => {
       setSelected({ type, item });
       setError(null);
 
-      // ✅ scroll immediately on click (fast feedback)
-      // If you prefer to scroll after data loads, move this call into each try{} block after set*Data(...)
-      window.requestAnimationFrame(scrollToMain);
+      // (Optional) On small screens, collapse all sections to avoid pushing content mid-scroll
+      if (window.matchMedia("(max-width: 1023px)").matches) {
+        setExpandedItems({});
+      }
+
+      // Schedule scroll immediately — our scrollToMain waits for layout to settle
+      scrollToMain();
 
       // Cancel previous request if any
       if (reqAbortRef.current) reqAbortRef.current.abort();
@@ -259,7 +286,7 @@ const DynamicWorldPortal = () => {
               signal: controller.signal,
             });
 
-            setCountryData(data.data);
+            setCountryData(data?.data ?? null);
           } catch (e) {
             if (e?.name !== "CanceledError" && e?.code !== "ERR_CANCELED") {
               console.error(e);
@@ -269,11 +296,10 @@ const DynamicWorldPortal = () => {
           } finally {
             setIsLoading(false);
           }
-          break; // ✅ prevent fall-through into default
+          break; // prevent fall-through
         }
 
         default: {
-          // Future categories
           setUniversityData(null);
           break;
         }
@@ -297,11 +323,11 @@ const DynamicWorldPortal = () => {
         />
       </div>
 
-      {/* 🔽 main section gets id + ref; scroll-mt offsets sticky headers if any */}
+      {/* 🔽 main section gets id + ref; scroll-mt offsets sticky headers on browsers that honor it */}
       <div
         id="main-section"
         ref={mainSectionRef}
-        className="flex-1 bg-white shadow lg:ml-4 rounded-lg scroll-mt-24"
+        className="flex-1 bg-white shadow lg:ml-4 rounded-lg scroll-mt-24 lg:scroll-mt-0"
       >
         <MainContent
           selected={selected}

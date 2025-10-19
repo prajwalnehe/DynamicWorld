@@ -18,7 +18,7 @@ const MenuLinkMobile = ({
         Home
       </NavLink>
       <NavLink
-        to="/about"
+        to="/about-us"
         onClick={() => setMobileOpenFuc(false)}
         className="block w-full px-3 py-3 text-[15px] font-medium rounded-md hover:bg-gray-200"
       >
@@ -65,13 +65,7 @@ const MenuLinkMobile = ({
         </ul>
       )}
 
-      <NavLink
-        to="/events"
-        onClick={() => setMobileOpenFuc(false)}
-        className="block w-full px-3 py-3 text-[15px] font-medium rounded-md hover:bg-gray-200"
-      >
-        Events
-      </NavLink>
+     
       <NavLink
         to="/blog"
         onClick={() => setMobileOpenFuc(false)}

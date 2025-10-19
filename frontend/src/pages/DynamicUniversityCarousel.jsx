@@ -4,6 +4,7 @@ import { UniversityLogos } from "./logos.js";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import online_education_banner from "../assets/online_education_banner.png";
+import online_education_banner_mobile from "../assets/online_education_banner_mobile.png";
 
 // Tailwind-friendly custom arrows (shown on md+)
 const ArrowBase = ({ onClick, dir }) => (
@@ -29,9 +30,9 @@ export default function DynamicUniversityCarousel() {
     infinite: true,
     speed: 8000,
     autoplay: true,
-    autoplaySpeed: 0, // continuous
+    autoplaySpeed: 0, // continuous scroll
     cssEase: "linear",
-    slidesToShow: 6, // ← default: 6 on large screens
+    slidesToShow: 6, // default for large desktop
     slidesToScroll: 1,
     swipeToSlide: true,
     pauseOnHover: true,
@@ -40,11 +41,40 @@ export default function DynamicUniversityCarousel() {
     arrows: true,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
+
     responsive: [
       {
-        breakpoint: 1024, // < 1024px → small/medium screens
+        breakpoint: 1600, // 🖥️ large desktop / wide screen
         settings: {
-          slidesToShow: 3, // ← exactly 3 on small screens
+          slidesToShow: 5,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 1280, // 💻 laptop
+        settings: {
+          slidesToShow: 4,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 1024, // 📱 tablet (landscape)
+        settings: {
+          slidesToShow: 5,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 768, // 📲 medium display phone (tablet portrait / large phone)
+        settings: {
+          slidesToShow: 3.2, // partial slide visible for better UX
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 480, // 📱 small display phone
+        settings: {
+          slidesToShow: 2.2, // one main slide + a peek of next
           arrows: false,
         },
       },
@@ -87,11 +117,21 @@ export default function DynamicUniversityCarousel() {
           </Slider>
         </div>
         {/* Banner */}
-        <figure className="mt-5 sm:mt-6 lg:mt-8">
-          {" "}
-          {/* ↓ smaller gap above banner */}
+        <figure className="hidden lg:block mt-5 sm:mt-6 lg:mt-8">
           <img
             src={online_education_banner}
+            alt="Learn online from top universities across India"
+            loading="lazy"
+            className="w-full h-auto rounded-lg sm:rounded-xl shadow-md object-cover"
+          />
+          <figcaption className="mt-1 text-[11px] sm:text-xs text-gray-500 text-center">
+            Explore flexible, career-ready programs designed for working
+            professionals.
+          </figcaption>
+        </figure>
+        <figure className="lg:hidden mt-5 sm:mt-6 lg:mt-8">
+          <img
+            src={online_education_banner_mobile}
             alt="Learn online from top universities across India"
             loading="lazy"
             className="w-full h-auto rounded-lg sm:rounded-xl shadow-md object-cover"

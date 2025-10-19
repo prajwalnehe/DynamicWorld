@@ -10,7 +10,6 @@ import FAQAccordion from "./FrequentlyAskedQuestion";
 import Hero from "./Hero";
 import InquiryDetails from "./InquiryDetails";
 import AllTestimonials from "./Testomonials";
-import EducationCountries from "./Country";
 
 const HomePageLayout = () => {
   return (
@@ -25,7 +24,6 @@ const HomePageLayout = () => {
       <AllTestimonials />
       <FAQAccordion />
       <ConfusedAboutCollege02 />
-      {/* <EducationCountries /> */}
     </div>
   );
 };

@@ -2,10 +2,10 @@ import React from 'react';
 
 const ContactUs3 = () => {
   return (
-    <div className="w-full min-h-screen px-0 md:px-6 lg:px-8 py-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch h-full">
+    <div className="w-full  px-2 md:px-6 lg:px-8 py-4 lg:py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch h-full ">
         {/* Left: Google Map */}
-        <div className="bg-white rounded-xl shadow overflow-hidden h-[60vh] md:h-[80vh]">
+        <div className="bg-white rounded-xl shadow overflow-hidden h-[50vh] md:h-[80vh]">
           <div className="h-full">
             <iframe
               title="Dynamic World Map - Pune"

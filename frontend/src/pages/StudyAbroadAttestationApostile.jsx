@@ -323,13 +323,6 @@ const StudyAbroadAttestationApostile = () => {
                 <Chip>Legalization & Translation</Chip>
               </div>
             </div>
-            <address className="not-italic text-sm md:text-base">
-              <div className="rounded-2xl bg-white/10 md:bg-white/10 p-3 md:p-4 backdrop-blur">
-                <div className="font-medium">Pune Office</div>
-                <div>Office No. 506, 5th Floor, Sterling Centre, MG Road,</div>
-                <div>Opp. Aurora Towers, Camp, Pune, Maharashtra 411001</div>
-              </div>
-            </address>
           </div>
         </div>
       </header>

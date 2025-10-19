@@ -8,6 +8,9 @@ import {
 import { CourseComponentsForCollege } from "../pages/CollegeAdmission";
 import { CourseComponentsStudyAbroad } from "../pages/StudyAbroadSection";
 import Country from "../pages/Country";
+import UniversitySkeleton from "./UniversitySkeleton";
+import VocationalSkeleton from "./VocationalSkeleton";
+import RegularAdmissionSkeleton from "./RegularAdmissionSkeleton";
 
 // Optional: if you have a separate shared details view, import and use it.
 // import UniversityDetails from "./UniversityDetails";
@@ -23,7 +26,7 @@ const MainContent = ({
 }) => {
   // Global loading / error states from parent
   if (isLoading) {
-    return <p className="text-sm sm:text-base text-gray-600">Loading…</p>;
+    return <UniversitySkeleton />;
   }
   if (error) {
     return <p className="text-sm sm:text-base text-red-600">{error}</p>;
@@ -40,7 +43,7 @@ const MainContent = ({
     const Comp = CourseComponents[key];
     console.log(Comp);
     return Comp ? (
-      <Suspense fallback={<div className="p-6">Loading course…</div>}>
+      <Suspense fallback={<VocationalSkeleton />}>
         <Comp />
       </Suspense>
     ) : (
@@ -53,7 +56,7 @@ const MainContent = ({
     const key = normalizeKeyForRegular(selected.item);
     const Comp = CourseComponentsForRegular[key];
     return Comp ? (
-      <Suspense fallback={<div className="p-6">Loading course…</div>}>
+      <Suspense fallback={<RegularAdmissionSkeleton />}>
         <Comp />
       </Suspense>
     ) : (
@@ -68,7 +71,7 @@ const MainContent = ({
     const Comp = CourseComponentsForCollege[key];
     console.log(Comp);
     return Comp ? (
-      <Suspense fallback={<div className="p-6">Loading course…</div>}>
+      <Suspense fallback={<RegularAdmissionSkeleton />}>
         <Comp />
       </Suspense>
     ) : (
@@ -83,7 +86,7 @@ const MainContent = ({
     const Comp = CourseComponentsStudyAbroad[key];
     console.log(Comp);
     return Comp ? (
-      <Suspense fallback={<div className="p-6">Loading course…</div>}>
+      <Suspense fallback={<RegularAdmissionSkeleton/>}>
         <Comp />
       </Suspense>
     ) : (
@@ -94,6 +97,7 @@ const MainContent = ({
   if (selected.type === "Study Abroad Countries") {
     console.log(selected.item);
   }
+
   if (countryData) {
     return <Country countryData={countryData} />;
   }

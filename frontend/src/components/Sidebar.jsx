@@ -9,7 +9,7 @@ const Sidebar = ({
 }) => {
   return (
     <aside className="w-full lg:w-72 h-full">
-      <div className="bg-white rounded-xl shadow-sm ring-1 ring-gray-200 overflow-hidden min-h-screen">
+      <div className="bg-white rounded-xl  ring-1 ring-gray-200 overflow-hidden min-h-screen">
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="px-4 py-3 sm:px-5 sm:py-4">
@@ -66,9 +66,11 @@ const Sidebar = ({
 
                       <span className="flex items-center gap-2 shrink-0">
                         {items.length > 0 && (
-                          <span className="hidden sm:inline-flex items-center justify-center px-2 py-0.5 rounded-full text-[11px] font-medium bg-blue-50 text-blue-700 ring-1 ring-blue-100">
-                            {items.length}
-                          </span>
+                          // <span className="hidden sm:inline-flex items-center justify-center px-2 py-0.5 rounded-full text-[11px] font-medium bg-blue-50 text-blue-700 ring-1 ring-blue-100">
+                          //   {items.length} k
+                          // </span>
+
+                          <img src={section.url} alt={section.url} className="h-8 w-8" />
                         )}
                         {isOpen ? (
                           <ChevronDown className="w-4 h-4 text-gray-500 transition-transform" />
@@ -98,20 +100,22 @@ const Sidebar = ({
                                 : undefined;
 
                             return (
-                              <button
-                                key={`${section.title}::${item}`}
-                                onClick={onClick}
-                                disabled={!canClick}
-                                className={`w-full text-left px-2.5 py-2 rounded-md text-[13px] sm:text-sm transition-colors truncate
+                              <div>
+                                <button
+                                  key={`${section.title}::${item}`}
+                                  onClick={onClick}
+                                  disabled={!canClick}
+                                  className={`w-full text-left px-2.5 py-2 rounded-md text-[13px] sm:text-sm transition-colors truncate
                                   ${
                                     canClick
                                       ? "text-gray-700 hover:bg-blue-50 hover:text-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
                                       : "text-gray-400 cursor-not-allowed"
                                   }`}
-                                title={item}
-                              >
-                                {item}
-                              </button>
+                                  title={item}
+                                >
+                                  {item}
+                                </button>
+                              </div>
                             );
                           })
                         )}
