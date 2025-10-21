@@ -8,7 +8,6 @@ const SkillCourses = () => {
   return (
     <div>
       <SkillCourse01 />
-      <UniversityStrip />
       <SkillCourse02 />
       <SkillCourse03 />
     </div>

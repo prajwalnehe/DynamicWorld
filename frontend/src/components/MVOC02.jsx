@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 // Data (unchanged)
 const programData = [
@@ -110,12 +110,35 @@ const programData = [
 ];
 import Niilm from "../assets/Niilm.png";
 import UniversityStrip from "./UniversitityStrip";
+import DynamicUniversity from "./DynamicUniversity";
+import axios from "axios";
 const MVOC02 = () => {
+  const api = import.meta.env.VITE_BACKEND_API;
+  const [isLoading, setIsLoading] = useState(true);
+  const [MVOC, setMVOC] = useState([]);
+  const handleApi = async () => {
+    try {
+      const { data } = await axios.get(`${api}/mvoc-programs`);
+      setMVOC(data.data);
+    } catch (error) {
+      console.error("Error fetching MVOC programs:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+  useEffect(() => {
+    handleApi();
+  }, []);
   return (
     <div className="min-h-screen w-full  text-white">
       <UniversityStrip />
 
-      {/* Main */}
+      {isLoading ? (
+        <p className="text-center mt-10">Loading...</p>
+      ) : (
+        <DynamicUniversity university={MVOC} />
+      )}
+
       <main className="mx-auto max-w-7xl px-4 py-6 md:py-10">
         {/* Primary card */}
         <section
@@ -199,12 +222,8 @@ const MVOC02 = () => {
                         key={idx}
                         className="hover:bg-neutral-50/60 transition-colors"
                       >
-                        <td className="px-4 py-3">
-                          {row.category}
-                        </td>
-                        <td className="px-4 py-3 ">
-                          {row.programs}
-                        </td>
+                        <td className="px-4 py-3">{row.category}</td>
+                        <td className="px-4 py-3 ">{row.programs}</td>
                       </tr>
                     ))}
                   </tbody>

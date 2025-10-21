@@ -1,21 +1,41 @@
-import React, { useState } from "react";
-import UniversityStrip from "./UniversitityStrip";
+import { useEffect, useState } from "react";
 import globalUniversity from "../assets/globalUniversity.jpg";
 import Niilm from "../assets/Niilm.png";
-import Kalinga from "../assets/Kalinga.png";
-import DRRaman from "../assets/DRRaman.jpg";
+import UniversityStrip from "./UniversitityStrip";
 
-
+import axios from "axios";
+import DynamicUniversity from "./DynamicUniversity";
 
 const BVOC2 = () => {
+  const api = import.meta.env.VITE_BACKEND_API;
+  const [isLoading, setIsLoading] = useState(true);
+  const [BVOC, setBVOC] = useState([]);
+  const handleApi = async () => {
+    try {
+      const { data } = await axios.get(`${api}/bvoc-programs`);
+      setBVOC(data.data);
+    } catch (error) {
+      console.error("Error fetching BVOC programs:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+  useEffect(() => {
+    handleApi();
+  }, []);
   return (
     <div className="min-h-screen w-full bg-white text-[#31393C]">
       {/* Top header strip */}
       <UniversityStrip />
 
       {/* Content */}
+
+      {isLoading ? (
+        <p className="text-center mt-10">Loading...</p>
+      ) : (
+        <DynamicUniversity university={BVOC} />
+      )}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 space-y-6">
-        {/* ---------- GLOCAL UNIVERSITY ---------- */}
         <UniversityCard
           name="GLOCAL UNIVERSITY"
           logo={globalUniversity}
@@ -93,47 +113,6 @@ const BVOC2 = () => {
             "B.Voc in Food Processing & Quality Management",
           ]}
         />
-
-        {/* ---------- KALINGA UNIVERSITY ---------- */}
-        <UniversityCard
-          name="KALINGA UNIVERSITY"
-          logo={Kalinga}
-          desc="Approved by UGC, BCI, PCI, NCTE, AIU, NBA, AICTE-accredited, recognized degrees, high-quality education."
-          programs={[
-            "B.Voc in Automobile",
-            "B.Voc in Banking & Financial Service",
-            "B.Voc in Beauty & Wellness",
-            "B.Voc in Building Construction",
-            "B.Voc in Computer Application & I.T",
-            "B.Voc in Data Science",
-            "B.Voc in Electronics Manufacturing Services",
-            "B.Voc in Engine Testing",
-            "B.Voc in Farm Equipment & Machinery",
-            "B.Voc in Fashion Technology",
-            "B.Voc in Herbal Beauty Care",
-            "B.Voc in Hospital Administration",
-            "B.Voc in Hospitality & Tourism",
-            "B.Voc in Interior Design",
-            "B.Voc in Building Technology",
-            "B.Voc in Jewellery Design",
-            "B.Voc in Mobile Application Development",
-            "B.Voc in Mobile Communication",
-            "B.Voc in Multimedia",
-            "B.Voc in Printing Technology",
-            "B.Voc in Refrigeration & Air Conditioning",
-            "B.Voc in Renewable Energy",
-            "B.Voc in Retail",
-            "B.Voc in Retail & Logistics Management",
-            "B.Voc in Software Development",
-            "B.Voc in Sports",
-            "B.Voc in Tourism & Service Industry",
-            "B.Voc in Web Technology",
-            "B.Voc in Yoga",
-            "B.Voc in Hotel Management",
-          ]}
-        />
-
-        {/* ---------- NIILM UNIVERSITY ---------- */}
         <UniversityCard
           name="NIILM UNIVERSITY"
           logo={Niilm}
@@ -190,41 +169,6 @@ const BVOC2 = () => {
             "B.Voc in Jewellery Design and Management",
           ]}
         />
-
-        {/* ---------- DR. C. V. RAMAN UNIVERSITY ---------- */}
-        <UniversityCard
-          name="DR. C. V. RAMAN UNIVERSITY, BIHAR"
-          logo={DRRaman}
-           desc="Approved by UGC, BCI, PCI, NCTE, AIU, NBA, AICTE-accredited, recognized degrees, high-quality education."
-          programs={[
-            "B.Voc In Automible Production (Machining)",
-            "B.Voc In Automible Production (Welding)",
-            "B.Voc In Electrical & Electronics Assembly",
-            "B.Voc In Interior Design",
-            "B.Voc In IT Application Development",
-            "B.Voc In Plumbing Skills",
-            "B.Voc In Production",
-            "B.Voc In Refrigeration & Air Conditioning",
-            "B.Voc In Retail Management",
-            "B.Voc In Accounts & Taxation",
-            "B.Voc In Agriculture",
-            "B.Voc In Automobile Servicing",
-            "B.Voc In Banking, Financial Services & Insurance",
-            "B.Voc In Computer Hardware & Networking",
-            "B.Voc In Electronics Manufacturing Services",
-            "B.Voc In Fashion Designing",
-            "B.Voc In Food Processing",
-            "B.Voc In Life Science",
-            "B.Voc In Manufacturing",
-            "B.Voc In Mining",
-            "B.Voc In Patient Care Management",
-            "B.Voc In Renewable Energy",
-            "B.Voc In Hotel Management",
-            "B.Voc In Telecommunication",
-            "B.Voc In Logistics Operation Management",
-            "B.Voc In Textile Technology",
-          ]}
-        />
       </div>
     </div>
   );
@@ -242,7 +186,7 @@ const UniversityCard = ({ name, logo, desc, programs }) => {
   return (
     <section className="bg-white rounded-xl border border-gray-200 shadow-sm p-5 sm:p-6">
       {/* Header */}
-      <div className="lg:flex items-center ">
+      <div className="lg:flex items-center">
         <div className="">
           <img
             src={logo}

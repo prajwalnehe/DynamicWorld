@@ -33,8 +33,10 @@ const DynamicWorldPortal = () => {
   // fetch online universities
   const handleApi01 = useCallback(async () => {
     try {
-      const res = await axios.get(`${api}/onlineUniversities`);
+      const res = await axios.get(`${api}/onlineUniversitiesV2`);
+
       const universities = res.data?.data || [];
+      console.log(universities);
       setOnlineUniversity(
         dedupe(universities.map((u) => tidy(u.universityName)))
       );
@@ -47,7 +49,7 @@ const DynamicWorldPortal = () => {
   // fetch distance universities
   const handleApi02 = useCallback(async () => {
     try {
-      const res = await axios.get(`${api}/getAllUniversities`);
+      const res = await axios.get(`${api}/getAllUniversitiesV2`);
       const universities = res.data?.data || [];
       setDistanceUniversity(
         dedupe(universities.map((u) => tidy(u.universityName)))
@@ -210,7 +212,6 @@ const DynamicWorldPortal = () => {
     setExpandedItems((prev) => ({ ...prev, [index]: !prev[index] }));
   }, []);
 
-  // ✅ robust smooth scroll that waits for layout to settle and accounts for sticky headers
   const scrollToMain = useCallback(() => {
     const target =
       mainSectionRef.current || document.getElementById("main-section");
@@ -255,8 +256,8 @@ const DynamicWorldPortal = () => {
 
             const endpoint =
               type === "Online University"
-                ? "onlineUniversity"
-                : "distanceUniversity";
+                ? "onlineUniversityV2"
+                : "distanceUniversityV2";
             const { data } = await axios.get(`${api}/${endpoint}`, {
               params: { universityName: tidy(item) },
               signal: controller.signal,
@@ -310,7 +311,7 @@ const DynamicWorldPortal = () => {
 
   return (
     <div className="flex flex-col lg:flex-row space-y-5 parent">
-      <div className="p-2">
+      <div className="p-2 lg:sticky lg:top-0  lg:h-[calc(100vh-4.5rem)] lg:overflow-y-auto">
         <Sidebar
           sidebarData={sidebarData}
           expandedItems={expandedItems}

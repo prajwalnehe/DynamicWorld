@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CurrentYear from "./CurrentYear";
 import Niilm from "../assets/Niilm.png";
 import UniversityStrip from "./UniversitityStrip";
+import axios from "axios";
+import DynamicUniversity from "./DynamicUniversity";
+import { set } from "mongoose";
 const DVOC2 = () => {
+  const api = import.meta.env.VITE_BACKEND_API;
+  const [DVOC, setDVOC] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const programs = [
     {
       category: "Technician",
@@ -111,10 +117,29 @@ const DVOC2 = () => {
         "Operations, Textile Technology, Printing Technology, Paint & Coating, Mining, etc.",
     },
   ];
-
+  const handleApi = async () => {
+    try {
+      setIsLoading(true);
+      const { data } = await axios.get(`${api}/dvoc-programs`);
+      setDVOC(data.data);
+    } catch (error) {
+      console.error("Error fetching DVOC programs:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+  useEffect(() => {
+    handleApi();
+  }, []);
   return (
     <div className="min-h-screen w-full bg-white text-[#31393C]">
       <UniversityStrip />
+
+      {isLoading ? (
+        <p className="text-center mt-10">Loading...</p>
+      ) : (
+        <DynamicUniversity university={DVOC} />
+      )}
 
       {/* Main Content */}
       <div className="py-6">

@@ -1,7 +1,7 @@
 import express from 'express'
-import { getAllOnlineUniversities, insertManyUniversities, getUniversityById } from '../controller/OnlineUniversityController.js';
+import { getAllOnlineUniversities, insertManyUniversities, getUniversityById, getSelectedUniversityFields } from '../controller/OnlineUniversityController.js';
 export const onlineUniversityRouter = express.Router();
 onlineUniversityRouter.route('/createOnlineUniversities').post(insertManyUniversities);
 onlineUniversityRouter.route('/onlineUniversities').get(getAllOnlineUniversities);
 onlineUniversityRouter.route('/onlineUniversity').get(getUniversityById);
-
+onlineUniversityRouter.route('/selectedOnlineUniversityFields').get(getSelectedUniversityFields);

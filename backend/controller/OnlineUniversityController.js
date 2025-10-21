@@ -54,3 +54,28 @@ export const getUniversityById = async (req, res) => {
     })
   }
 }
+export const getSelectedUniversityFields = async (req, res) => {
+  try {
+    const universities = await onlineUniversity.find({}, {
+      universityName: 1,
+      onlineEducation: 1,
+      shortDescription: 1,
+      establish: 1,
+      location: 1,
+      universityRanking: 1,
+      _id: 0, // exclude MongoDB _id field if not needed
+    });
+
+    res.status(200).json({
+      success: true,
+      count: universities.length,
+      data: universities,
+    });
+  } catch (error) {
+    console.error("Error fetching selected university fields:", error);
+    res.status(500).json({
+      success: false,
+      message: "Server Error",
+    });
+  }
+};

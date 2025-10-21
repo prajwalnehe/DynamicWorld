@@ -1,14 +1,19 @@
-import express from 'express'
+import cors from 'cors';
 import { configDotenv } from 'dotenv';
-import cors from 'cors'
+import express from 'express';
 import { connectDb } from './config/databaseConnection.js';
-import { onlineUniversityRouter } from './routes/onlineUniversityRouter.js';
-import { distanceUniversityRouter } from './routes/distanceUniversity.js';
-import { regularAddmissionRouter } from './routes/regularAddmissionRoute.js';
-import MBBSRouter from './routes/MBBSRoute.js';
-import Engineering from './model/Engineering.js';
 import EngineeringRouter from './routes/EngineeringRoute.js';
+import MBBSRouter from './routes/MBBSRoute.js';
 import countryRouter from './routes/countryRoute.js';
+import { distanceUniversityRouter } from './routes/distanceUniversity.js';
+import { distanceUniversityRouterV2 } from './routes/distanceUniversityV2.js';
+import dvoc_mvoc_bvoc_Router from './routes/dvoc_mvoc_bvoc_route.js';
+import { onlineUniversityRouter } from './routes/onlineUniversityRouter.js';
+import { onlineUniversityRouterV2 } from './routes/onlineUniversityRouterV2.js';
+import { regularAddmissionRouter } from './routes/regularAddmissionRoute.js';
+import skillCourseRouter from './routes/skillCourseRoute.js';
+import mbbsInAbroadRouter from './routes/mbbsInAbroadRouter.js';
+import mbaInIndiaRouter from './routes/mbaInIndiaRoute.js';
 configDotenv();
 const server = express();
 const PORT = process.env.PORT;
@@ -16,11 +21,18 @@ connectDb();
 server.use(express.json());
 server.use(cors());
 server.use('/api/v1/', onlineUniversityRouter)
+server.use('/api/v1/', onlineUniversityRouterV2)
 server.use('/api/v1/', distanceUniversityRouter)
+server.use('/api/v1/', distanceUniversityRouterV2)
 server.use('/api/v1/', regularAddmissionRouter)
 server.use('/api/v1/', MBBSRouter)
 server.use('/api/v1/', EngineeringRouter)
 server.use('/api/v1', countryRouter)
+server.use('/api/v1', skillCourseRouter)
+server.use('/api/v1/', dvoc_mvoc_bvoc_Router);
+server.use('/api/v1/' , mbbsInAbroadRouter)
+server.use('/api/v1/', mbaInIndiaRouter)
+
 server.listen(PORT, () => {
   console.log("Setup Successful!")
 });

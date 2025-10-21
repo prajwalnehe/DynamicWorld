@@ -1,0 +1,3236 @@
+[
+  {
+    "_id": "68f61f4e1c2bcc28dbf3db6e",
+    "slug": "sanskaram-university-bvoc",
+    "name": "Sanskaram University",
+    "universityName": "Sanskaram University",
+    "description": "Sanskaram University (Haryana) offers skills‑oriented B.Voc programmes across healthcare, management, design and technology domains with an emphasis on practical training, internships and employability.",
+    "accreditation": [
+      "UGC recognition (State Private University)",
+      "NAAC Accreditation (Institutional, as applicable)",
+      "Programme approvals/affiliations for healthcare and allied areas (e.g., State Councils/PCI/INC, as applicable)"
+    ],
+    "awards": [
+      "Recognised in regional/national education listings and ratings (recent cycles)"
+    ],
+    "website": "https://sanskaramuniversity.ac.in/",
+    "images": [
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760959174/sanskaram_z8jlw8.png"
+    ],
+    "courses": [
+      {
+        "courseName": "B.VOC",
+        "specialization": "Dialysis Technology",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Hospital Management",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Optometry",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Medical Lab Technology",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Cardiac Care Technology",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Physiotherapy Technology",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Operation Theatre Technology",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Healthcare",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Radiography & Imagining Technology",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Health Sanitary Inspector",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Community Medical Service and Essential Drugs (C.M.S.E.D)",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Patient Care Management",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Multi Purpose Health Worker",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Hospital Sterilization Technology",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Interior Design",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Fashion Design",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Computer Application",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Hotel Management",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Tourism & Hospitality Management",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Banking & Financial Services",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Fire & Industrial Safety",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Fine Art",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Diploma in Agriculture",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Mass Communication",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      },
+      {
+        "courseName": "B.VOC",
+        "specialization": "Multimedia & Animation",
+        "duration": "",
+        "eligibility": "12th (B.VOC)",
+        "mode": "Regular",
+        "fees": 0
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2025-10-20T11:38:54.313Z",
+    "updatedAt": "2025-10-20T11:38:54.313Z"
+  },
+  {
+    "_id": "68f775de4a55395eca737d71",
+    "slug": "Kalinga-University",
+    "name": "KUC",
+    "universityName": "Kalinga University",
+    "description": "Kalinga University, established in 2013 in New Raipur, Chhattisgarh, is a leading private university recognized for its modern approach to education and research. It offers a wide range of undergraduate, postgraduate, and doctoral programs across disciplines like engineering, management, law, pharmacy, and humanities.",
+    "accreditation": [
+      "UGC recognized",
+      "NAAC A+ grade",
+      "AICTE approved",
+      "BCI approved",
+      "PCI approved"
+    ],
+    "awards": [
+      "The university organised a “Pratibha Protsahan Samaroh” event in July 2022 to honour the top 10 rank-holders of the Chhattisgarh Board Class 12 results, where awards included cash prizes and full tuition-fee scholarships"
+    ],
+    "website": "https://kalingauniversity.ac.in/",
+    "images": [
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761046375/Kalinga_oaaa5p.png"
+    ],
+    "courses": [
+      {
+        "courseName": "BVoc in Farm Equipment & Machinery",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Mobile Communication",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Retail Management",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Renewable Energy",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Building Construction & Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Fashion Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Interior Design",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Jewellery Design",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Tourism & Service Industry",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Printing Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Software Development",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Hospital Administration & Allied Areas",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Hotel Management",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Beauty & Wellness",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Animation & VFX or Game Design",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Automobile",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Engine Testing",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Banking & Financial Service",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Computer Application & It",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Data Science",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Harbal Beauty Care",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Hospitality & Tourism",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Mobile Application Development",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Multimedia",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Retail & Logistic Management",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Sports",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Web Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Yoga",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Electrical",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Hotel & Hospitality Management",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Building Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Business Management & Entrepenurship",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Cement Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Computer Hardware & Maintenance",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Cyber Security",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Digital Marketing",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Event Management",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Film Making",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Fine Arts",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Fire & Safety Management",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Food Processing Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Glass & Ceramic Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Manufacturing",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Mass Media & Journalism",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Mining",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Music Instrumental",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Music Vocal",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Performing Arts",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Plastic & Polymer Science",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Production Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Quality Management",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Robotics",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Soil Water Conservation",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Spoken English",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Theatre & Acting",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Tool & Dye Making",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Construction Technology",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "BVoc in Hospital Administration",
+        "specialization": null,
+        "duration": "3 Years",
+        "eligibility": "12th",
+        "mode": null,
+        "fees": null
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2025-10-21T12:00:30.280Z",
+    "updatedAt": "2025-10-21T12:00:30.280Z"
+  },
+  {
+    "_id": "68f775de4a55395eca737d72",
+    "slug": "cvrg",
+    "name": "CVRG",
+    "universityName": "Dr. C.V. Raman University - Chhattisgarh",
+    "description": "Dr. C.V. Raman University, Bilaspur (Chhattisgarh) offers programmes in engineering, science, humanities, law, pharmacy, education, commerce and management with practical, community-centric learning.",
+    "accreditation": [
+      "UGC recognition under Section 2(f)",
+      "AICTE / NCTE / BCI approvals (as applicable)",
+      "NAAC Accreditation (Institutional)"
+    ],
+    "awards": [
+      "National Academic Depository (NAD) integration for degree verification"
+    ],
+    "website": "https://cvru.ac.in",
+    "images": [
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761046374/DRRaman_ebe8cl.jpg"
+    ],
+    "courses": [
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Information Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Logistics Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Service",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plastic Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "M.Voc In Digital Electronics",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "Grad / B.E / BTech / In Electronics",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Digital Electronics",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Logistics Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Service",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": null,
+        "fees": null
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2025-10-21T12:00:30.284Z",
+    "updatedAt": "2025-10-21T12:00:30.284Z"
+  },
+  {
+    "_id": "68f775de4a55395eca737d73",
+    "slug": "rntu",
+    "name": "RNTU",
+    "universityName": "Rabindranath Tagore University",
+    "description": "Rabindranath Tagore University (RNTU), established in 2010 in Bhopal, Madhya Pradesh, is a private university known for its commitment to quality education and research. It offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines including engineering, management, law, pharmacy, and humanities.",
+    "accreditation": [
+      "Recognised under Section 2(f) of the UGC Act",
+      "Accredited by NAAC with Grade B",
+      "Approved by AICTE (All India Council for Technical Education)",
+      "Approved by NCTE (National Council for Teacher Education)"
+    ],
+    "awards": [
+      "Recognised in national rankings/ratings (recent cycles)"
+    ],
+    "website": "https://rntu.ac.in",
+    "images": [
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1759919603/Rabindranath_Tagore_University_RNTU_-Distance_Education_djasa8.svg"
+    ],
+    "courses": [
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Digital Electronics",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Logistics Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Service",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plastic Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "M.Voc In Digital Electronics",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "Grad / B.E / BTech / In Electronics",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking, Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Medical lab Technician",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Radiology & Imaging Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & Taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Servicing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Logistics Operations Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Multimedia",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass in ANy Stream",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc in Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc Travel & Tourism",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "PG Diploma In Tourism & Hospitality",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2025-10-21T12:00:30.284Z",
+    "updatedAt": "2025-10-21T12:00:30.284Z"
+  },
+  {
+    "_id": "68f775de4a55395eca737d74",
+    "slug": "cvrm",
+    "name": "CVRM",
+    "universityName": "Dr. C.V. Raman University - Madhya Pradesh",
+    "description": "Dr. C.V. Raman University, Khandwa (Madhya Pradesh) offers programmes in engineering, pharmacy, education, paramedical, management and more with a focus on skill-oriented, industry-linked learning.",
+    "accreditation": [
+      "UGC recognition (State Private University)",
+      "AICTE / NCTE / BCI approvals (as applicable)",
+      "NCTE recognition (Teacher Education)"
+    ],
+    "awards": [
+      "ISO-aligned quality systems (as per statutory disclosures)"
+    ],
+    "website": "https://cvrump.ac.in",
+    "images": [
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760953866/DrCvRaman_MP_whp3xm.png"
+    ],
+    "courses": [
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In It Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Service",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Information Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plastic Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Logistic Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In It Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Servicing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Information Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc Logistics Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2025-10-21T12:00:30.284Z",
+    "updatedAt": "2025-10-21T12:00:30.284Z"
+  },
+  {
+    "_id": "68f775de4a55395eca737d75",
+    "slug": "cvrb",
+    "name": "CVRB",
+    "universityName": "Dr. C.V. Raman University - Bihar",
+    "description": "Dr. C.V. Raman University, Bihar (Vaishali) offers UG, PG and diploma programmes across arts, commerce, science, management and IT with a focus on skill-based education.",
+    "accreditation": [
+      "UGC recognition under Section 2(f)",
+      "AICTE approved",
+      "ISO 9001:2015 certification"
+    ],
+    "awards": [
+      "ISO 9001:2015 certification"
+    ],
+    "website": "https://www.cvrubihar.ac.in",
+    "images": [
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760953866/DrCvRaman_Bihar_dfzw4r.png"
+    ],
+    "courses": [
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In It Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Service",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Information Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Logistic Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In It Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Servicing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc Logistics Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2025-10-21T12:00:30.285Z",
+    "updatedAt": "2025-10-21T12:00:30.285Z"
+  },
+  {
+    "_id": "68f775de4a55395eca737d76",
+    "slug": "auj",
+    "name": "AUJ",
+    "universityName": "AISECT University",
+    "description": "AISECT University Jharkhand offers programmes in humanities, sciences, commerce, management, IT and professional studies with industry-linked, skills-oriented education.",
+    "accreditation": [
+      "UGC recognition under Section 2(f)",
+      "AICTE / NCTE / BCI approvals (as applicable)"
+    ],
+    "awards": [
+      "Recognition in national rankings/ratings (recent cycles)"
+    ],
+    "website": "https://aisectuniversityjharkhand.ac.in/",
+    "images": [
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1759919598/Aisect_University-Distance_Education_x0pw9i.svg"
+    ],
+    "courses": [
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Digital Electronics",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In It Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Service",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "AU",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plastic Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc IN Construction Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "BA General",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "BCom",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "B.Lib",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "BSc IT",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "BBA",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "BCA",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "DCA",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MA Economics",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "Graduation",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MA English LIT",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MA Hindi LIT",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MA History",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MA Political Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MA Sociology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "M.Lib",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MSc IT",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "MSW",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "PGDCA",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "EMBA",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "Graduation",
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "M.Com",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "PGDRD [Rural Development]",
+        "specialization": null,
+        "duration": null,
+        "eligibility": null,
+        "mode": "OL Regular",
+        "fees": null
+      },
+      {
+        "courseName": "BA HONS\n- Economics\n- Political science\n- History\n- Sociology\n- Englisg Literature\n- Geography\n- Hindi Bhasha aur Samvedana",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL / Private",
+        "fees": null
+      },
+      {
+        "courseName": "BCom",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "OL / Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Machining)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automible Production (Welding)",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Digital Electronics",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electrical & Electronics Assembly",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Interior Design",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In It Application Development",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Plumbing Skills",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Production",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Refrigeration & Air Conditioning",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Retail Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Accounts & taxation",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Agriculture",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Automobile Servicing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Banking ,Financial Services & Insurance",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Computer Hardware & Networking",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Electronics Manufacturing Services",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Fashion Designing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Food Processing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Life Science",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Manufacturing",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Mining",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Patient Care Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Information Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Renewable Energy",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Hotel Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Telecommunication",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc Logistics Operation Management",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc In Textile Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th",
+        "mode": "Private",
+        "fees": null
+      },
+      {
+        "courseName": "B.Voc IN Construction Technology",
+        "specialization": null,
+        "duration": null,
+        "eligibility": "12th Pass or 10+2 Yrs of ITI or Polytech Dip",
+        "mode": "Private",
+        "fees": null
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2025-10-21T12:00:30.285Z",
+    "updatedAt": "2025-10-21T12:00:30.285Z"
+  }
+]

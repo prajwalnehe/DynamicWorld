@@ -1,5 +1,4 @@
 import React from "react";
-import CanadaFlag from "../assets/Flag_of_Canada.svg";
 
 const Immigration_Canada = () => {
   const jobDetails = [
@@ -29,7 +28,7 @@ const Immigration_Canada = () => {
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 pb-4 border-b border-white/30">
         <img
-          src={CanadaFlag}
+          src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1760432698/Flag_of_Canada_hqogez.svg"
           alt="Canada Flag"
           className="w-20 h-12 object-cover rounded-md shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_4px_12px_rgba(0,0,0,0.15)]"
         />

@@ -44,12 +44,12 @@ export const getAllDistanceUniversities = async (req, res) => {
 export const getDistanceUniversityById = async (req, res) => {
   try {
     const universityName = req.query.universityName?.trim()
-       const data = await distanceUniversity.findOne({ universityName });
-       res.status(200).json({
-         success: true,
-         data: data,
-         message: "University Fetched Successfully!"
-       })
+    const data = await distanceUniversity.findOne({ universityName });
+    res.status(200).json({
+      success: true,
+      data: data,
+      message: "University Fetched Successfully!"
+    })
   } catch (error) {
     res.status(500).json({
       message: "Failed to fetched the university",
