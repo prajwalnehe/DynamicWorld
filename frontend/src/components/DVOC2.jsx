@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
-import CurrentYear from "./CurrentYear";
-import Niilm from "../assets/Niilm.png";
-import UniversityStrip from "./UniversitityStrip";
 import axios from "axios";
+import { useEffect, useState } from "react";
+import Niilm from "../assets/Niilm.png";
+import CurrentYear from "./CurrentYear";
 import DynamicUniversity from "./DynamicUniversity";
-import { set } from "mongoose";
+import UniversityStrip from "./UniversitityStrip";
 const DVOC2 = () => {
   const api = import.meta.env.VITE_BACKEND_API;
   const [DVOC, setDVOC] = useState([]);
