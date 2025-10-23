@@ -39,7 +39,7 @@ const DynamicUniversity = ({ university }) => {
                 <div className="w-full">
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 justify-between">
                     <h1 className="text-2xl sm:text-3xl font-bold leading-tight">
-                      {uni?.name || uni?.universityName || "University"}
+                      {uni?.universityName || uni?.name || "University"}
                     </h1>
 
                     {uni?.website && (

@@ -1,6 +1,5 @@
+import ContactForm from "../pages/ContectForm";
 import CalendyButton from "./CalendyButton";
-import DynamicForm from "../pages/DynamicForm";
-import { Download } from "lucide-react";
 
 const Pill = ({ children }) => (
   <span className="inline-flex items-center gap-2 rounded-full bg-[#EDEEEB] px-2.5 sm:px-3 py-1 text-[11px] sm:text-xs font-semibold text-[#31393C]">
@@ -31,9 +30,9 @@ const ImmigrationHome = () => {
       {/* soft background tint */}
       <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-transparent via-[#3E96F4]/5 to-transparent" />
 
-      <div className="grid grid-cols-1 gap-5 sm:gap-6 lg:grid-cols-12">
+      <div className="">
         {/* Left */}
-        <div className="lg:col-span-7 xl:col-span-8">
+        <div className="">
           {/* Header */}
           <div className="mb-4 sm:mb-5">
             <Pill>Trusted Immigration & Skilled Jobs</Pill>
@@ -109,20 +108,12 @@ const ImmigrationHome = () => {
               <div className="w-full sm:w-auto">
                 <CalendyButton />
               </div>
-
-              <button
-                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-[#3E96F4] text-white text-sm sm:text-base font-semibold shadow-md transition duration-300 ease-in-out hover:bg-[#3E96F4]/90 hover:-translate-y-0.5"
-                aria-label="Download Brochure"
-              >
-                Download Brochure <Download size={18} className="sm:hidden" />
-                <Download size={20} className="hidden sm:inline-block" />
-              </button>
             </div>
           </div>
         </div>
 
-        {/* Right - Sticky form card */}
-        <aside className="lg:col-span-5 xl:col-span-4">
+    
+        <aside className="mt-5">
           <div className="lg:sticky lg:top-6">
             <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md">
               {/* Form header */}
@@ -140,7 +131,7 @@ const ImmigrationHome = () => {
 
               {/* Embedded form */}
               <div className="p-3 sm:p-4">
-                <DynamicForm />
+                <ContactForm/>
               </div>
 
               {/* Trust row */}

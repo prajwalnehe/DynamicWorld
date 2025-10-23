@@ -2,7 +2,6 @@ import React from "react";
 import MBBSHeader from "./MBBSHeader";
 
 const MBBBTable = ({ tags, subHeading, data }) => {
-  console.log(data);
   return (
     <div>
       <div className="bg-white rounded-2xl shadow-md overflow-hidden my-6">

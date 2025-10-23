@@ -1,16 +1,16 @@
-import React, { useMemo, useState } from "react";
-import { href, NavLink } from "react-router-dom";
+import { useMemo, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 /********************* Shared UI Primitives ************************/
 const SectionHeader = ({ title, subtitle, chip }) => (
   <div className="bg-[#3E96F4] text-white">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 py-6">
       <div className="flex items-center gap-3">
-        {chip && (
+        {/* {chip && (
           <span className="inline-flex items-center gap-2 rounded-full bg-white/95 px-3 py-1 text-xs font-medium text-[#31393C] shadow-sm">
             {chip}
           </span>
-        )}
+        )} */}
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold leading-tight">
             {title}
@@ -243,7 +243,7 @@ const resourceBlocks = {
   guides: [
     {
       icon: "📘",
-      title: "Study Abroad Handbook 2025",
+      title: "Study Abroad Handbook",
       blurb:
         "Step-by-step checklist for applications, visas, and scholarships.",
       tags: ["Study Abroad", "Checklist"],
@@ -255,7 +255,7 @@ const resourceBlocks = {
       title: "Top 10 Indian Universities for BVOC",
       blurb: "Curated list with key highlights, fees, and placement stats.",
       tags: ["BVOC", "India"],
-      primaryCta: { label: "View", href: "#" },
+      primaryCta: { label: "View", href: "bvoc-universities" },
     },
     {
       icon: "🎓",
@@ -281,7 +281,7 @@ const resourceBlocks = {
       title: "Career Tree: 12th Science (PCB / PCM)",
       blurb: "Visual flow of NEET/JEE/NATA/CET paths and related careers.",
       tags: ["Roadmaps"],
-      primaryCta: { label: "View", href: "#" },
+      primaryCta: { label: "View", href: "career-tree" },
     },
   ],
 };
@@ -409,9 +409,6 @@ export function ResourcesPage({ data = resourceBlocks }) {
         <section>
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-bold">Guides & E‑Books</h2>
-            <Button variant="outline" href="#">
-              View all
-            </Button>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {data.guides.map((g, i) => (
@@ -424,9 +421,6 @@ export function ResourcesPage({ data = resourceBlocks }) {
         <section>
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-bold">University Brochures</h2>
-            <Button variant="outline" href="#">
-              Browse
-            </Button>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {data.brochures.map((g, i) => (
@@ -439,9 +433,6 @@ export function ResourcesPage({ data = resourceBlocks }) {
         <section>
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-bold">Career Roadmaps</h2>
-            <Button variant="outline" href="#">
-              See all
-            </Button>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {data.roadmaps.map((g, i) => (

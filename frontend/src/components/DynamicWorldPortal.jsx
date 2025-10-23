@@ -1,11 +1,5 @@
 import axios from "axios";
-import React, {
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import MainContent from "./MainContent";
 import Sidebar from "./Sidebar";
 
@@ -18,7 +12,7 @@ const DynamicWorldPortal = () => {
   const [error, setError] = useState(null);
   const [universityData, setUniversityData] = useState(null);
   const [countryData, setCountryData] = useState(null);
-
+  const [countriesList, setCountriesList] = useState([]);
   const api = import.meta.env.VITE_BACKEND_API || "https://dummyapi.io";
 
   // Track/cancel in-flight request when user clicks quickly
@@ -36,7 +30,7 @@ const DynamicWorldPortal = () => {
       const res = await axios.get(`${api}/onlineUniversitiesV2`);
 
       const universities = res.data?.data || [];
-      console.log(universities);
+
       setOnlineUniversity(
         dedupe(universities.map((u) => tidy(u.universityName)))
       );
@@ -60,10 +54,22 @@ const DynamicWorldPortal = () => {
     }
   }, [api]);
 
+  const handleApi03 = useCallback(async () => {
+    try {
+      const { data } = await axios.get(`${api}/countries`);
+
+      const countries = data?.data || [];
+      setCountriesList(dedupe(countries.map((c) => tidy(c.countryName))));
+    } catch (error) {
+      console.error("Error fetching countries:", error);
+      setCountriesList([]);
+    }
+  }, [api]);
+
   useEffect(() => {
     (async () => {
       try {
-        await Promise.all([handleApi01(), handleApi02()]);
+        await Promise.all([handleApi01(), handleApi02(), handleApi03()]);
       } catch (e) {
         console.error("Error bootstrapping data:", e);
       } finally {
@@ -77,7 +83,7 @@ const DynamicWorldPortal = () => {
         reqAbortRef.current.abort();
       }
     };
-  }, [handleApi01, handleApi02]);
+  }, [handleApi01, handleApi02, handleApi03]);
 
   const vocationCourses = useMemo(
     () => ["DVOC", "BVOC", "MVOC", "DIPLOMA", "SKILL COURSE", "UPGRAD"],
@@ -120,22 +126,6 @@ const DynamicWorldPortal = () => {
     []
   );
 
-  const countries = [
-    "Austria",
-    "Australia",
-    "Czech Republic",
-    "Dubai",
-    "Europe",
-    "France",
-    "Germany",
-    "Italy",
-    "Ireland",
-    "Norway",
-    "NewZealand",
-    "Singapore",
-    "Sweden",
-  ];
-
   const studyAbroad = useMemo(
     () => ["Home", "Immigration", "Visa Services", "Attestation & Apostile"],
     []
@@ -147,12 +137,7 @@ const DynamicWorldPortal = () => {
         title: "Career Guidance",
         type: "Career Guidance",
         url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/careerGuidance_ajhz4v.png",
-        items: [
-          "Career Counseling",
-          "Job Opportunities",
-          "Interview Preparation",
-          "Resume Building",
-        ],
+        items: ["Career Counseling"],
       },
       {
         title: "Online Universities",
@@ -194,7 +179,7 @@ const DynamicWorldPortal = () => {
         title: "Study Abroad Countries",
         type: "Study Abroad Countries",
         url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760779898/studyAbroadCountries_wswi8l.png",
-        items: countries,
+        items: countriesList,
       },
     ],
     [
@@ -204,7 +189,7 @@ const DynamicWorldPortal = () => {
       regularFullTimeEducation,
       collegeAdmission,
       studyAbroad,
-      countries,
+      countriesList,
     ]
   );
 
@@ -266,7 +251,6 @@ const DynamicWorldPortal = () => {
             setUniversityData(data?.data ?? null);
           } catch (e) {
             if (e?.name !== "CanceledError" && e?.code !== "ERR_CANCELED") {
-              console.error(e);
               setError("Failed to fetch university data.");
               setUniversityData(null);
             }
@@ -311,7 +295,7 @@ const DynamicWorldPortal = () => {
 
   return (
     <div className="flex flex-col lg:flex-row space-y-5 parent">
-      <div className="p-2 lg:sticky lg:top-0  lg:h-[calc(100vh-4.5rem)] lg:overflow-y-auto">
+      <div className=" lg:sticky lg:top-0  lg:h-[calc(100vh-4.5rem)] lg:overflow-y-auto">
         <Sidebar
           sidebarData={sidebarData}
           expandedItems={expandedItems}

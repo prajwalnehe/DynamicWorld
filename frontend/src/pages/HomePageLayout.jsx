@@ -20,7 +20,7 @@ const HomePageLayout = () => {
       <DynamicUniversityCarousel />
       <AboutInfo />
       <ExpertGuidance />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <AllTestimonials />
       <FAQAccordion />
       <ConfusedAboutCollege02 />

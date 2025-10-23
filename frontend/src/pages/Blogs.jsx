@@ -1,4 +1,4 @@
-import { Clock, User } from "lucide-react";
+import { User } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import DemoPages from "../components/Test";
 

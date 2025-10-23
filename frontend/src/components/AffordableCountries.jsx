@@ -7,6 +7,7 @@ import {
   Building2,
   Briefcase,
 } from "lucide-react";
+import CurrentYear from "./CurrentYear";
 
 export default function AffordableCountries({ showCTA = true }) {
   const countries = [
@@ -115,7 +116,7 @@ export default function AffordableCountries({ showCTA = true }) {
           <div className="flex items-center gap-3">
             <Globe2 className="h-6 w-6" aria-hidden />
             <h1 className="text-2xl sm:text-3xl font-bold">
-              Top 5 Affordable Countries for MBBS Abroad (2025)
+              Top 5 Affordable Countries for MBBS Abroad <CurrentYear/>
             </h1>
           </div>
           <p className="mt-1 text-white/90 text-sm sm:text-base">
@@ -132,11 +133,11 @@ export default function AffordableCountries({ showCTA = true }) {
               key={c.name}
               className="rounded-2xl bg-white shadow-sm ring-1 ring-gray-200 overflow-hidden"
             >
-              <header className="border-b border-gray-100 p-4 sm:p-6 flex items-start gap-4">
+              <header className="border-b border-gray-100 p-4 sm:p-6 flex justify-start items-center gap-4">
                 <img
                   src={c.flag}
                   alt={`${c.name} flag`}
-                  className="h-6 w-8 rounded-sm ring-1 ring-black/10"
+                  className=" rounded-sm ring-1 ring-black/10 h-8 w-10"
                 />
                 <div className="min-w-0">
                   <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">

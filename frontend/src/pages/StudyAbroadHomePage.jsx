@@ -1,15 +1,14 @@
+import { AdmissionCulturalBenefits, UltraLightweightLandingPage } from "../components/StudyAbroadCountriesList";
 import StudyAbroadServices from "../components/StudyAbroadServices";
 import StudyAbroadTestomonials from "../components/StudyAbroadTestomonials";
 import WhatWeProvide from "../components/StudyAbroadWhatWeProvide";
+import StudyAbroad from "./StudyAbroad";
 const StudyAbroadHomePage = () => {
   return (
     <div>
-      <div>
-        <img
-          src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1761048506/StudyAbroadGirl_kohxhm.svg"
-          alt="StudyAbroad Banner"
-        />
-      </div>
+      <UltraLightweightLandingPage/>
+      <AdmissionCulturalBenefits/>
+      <StudyAbroad />
       <StudyAbroadServices />
       <WhatWeProvide />
       <StudyAbroadTestomonials />

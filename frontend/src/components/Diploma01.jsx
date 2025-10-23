@@ -1,12 +1,11 @@
-import React from "react";
-import DynamicForm from "../pages/DynamicForm";
+import ContactForm from "../pages/ContectForm";
 import CalendyButton from "./CalendyButton";
 
 const Diploma01 = () => {
   const isMobile = /Android|iPhone/i.test(navigator.userAgent);
 
   return (
-    <div className="min-h-screen w-full bg-white">
+    <div className="w-full bg-white">
       {/* Top ribbon (same shell as DVOC) */}
       <div className="bg-[#3E96F4] text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 py-6">
@@ -29,9 +28,7 @@ const Diploma01 = () => {
 
       {/* Main content */}
       <div className="">
-        <div className="grid grid-cols-1 md:grid-cols-2 ">
-          {/* LEFT: Content Card */}
-
+        <div className="">
           <div className="px-4 lg:px-8 py-5 text-base">
             {/* Duration pills */}
             <div className="flex flex-wrap items-center gap-2">
@@ -71,7 +68,7 @@ const Diploma01 = () => {
             </div>
             <CalendyButton />
           </div>
-          <DynamicForm title={"Receive expert college counseling at no cost"} />
+         <ContactForm/>
         </div>
       </div>
     </div>

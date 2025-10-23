@@ -14,7 +14,6 @@ export default function EducationCountries({ countryData }) {
   // Destructure safely with defaults (prevents "reading 'x' of undefined")
   const {
     countryName = "",
-
     description = "",
     imageUrl, // optional, if you add this to your data
     education = [],
@@ -28,22 +27,11 @@ export default function EducationCountries({ countryData }) {
     updatedAt,
   } = countryData ?? {};
 
-  // Optional: early return while data is loading
-
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-2 lg:px-4 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-3">
-            Study Abroad Destinations
-          </h1>
-          <p className="text-sm lg:text-lg text-gray-600">
-            Explore world-class education opportunities
-          </p>
-        </div>
-
+    <div className="min-h-screen bg-gray-50 text-xs md:text-sm lg:text-base text-gray-800">
+      <div className="max-w-7xl mx-auto">
         <div className="space-y-8">
-          <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+          <div className=" overflow-hidden">
             {/* Header */}
             <div className="bg-[#3e96f4] text-white lg:px-8  px-2 py-6">
               <div className="flex items-center gap-3 mb-2">
@@ -234,7 +222,6 @@ export default function EducationCountries({ countryData }) {
   );
 }
 
-/** Helper: render a Key Facts grid parsed from lines like "Capital: Canberra" */
 function KeyFacts({ facts, createdAt, updatedAt }) {
   const kv = toArr(facts).reduce((acc, line) => {
     const m = String(line).match(/^([^:]+):\s*(.+)$/); // Label: Value

@@ -19,18 +19,20 @@ const Navbar = () => {
     "Online Education",
     "Distance Education",
     "Regular Full-time Education",
+    "DVoc",
     "BVoc",
+    "MVoc",
     "Diploma & PG",
     "Certificate & Skill Courses",
+    "Upgrad",
     "MBBS India",
     "MBBS Abroad",
-    "BE/BTech Admission",
+    "BE-BTech Admission",
     "MBA Admission",
     "Study Abroad",
-    "Immigration & Visa Services",
+    "Immigration",
+    "Visa Services",
     "Attestation & Apostille",
-    "Online & Home Tuitions",
-    "Business Opportunities",
   ];
 
   const servicesRef = useRef(null);
@@ -202,7 +204,7 @@ const Navbar = () => {
       {/* Mobile Sheet */}
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-white">
-          <div className="py-3 px-5 border-b border-slate-200 flex items-center justify-between">
+          <div className="py-3 px-4 border-b border-slate-200 flex items-center justify-between">
             <div className="flex items-center gap-2">
               <img src={Logo} alt="Dynamic World Logo" className="h-8 w-auto" />
             </div>
@@ -241,8 +243,8 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Content */}
-          <div className=" py-2">
+         
+          <div className="">
             <MenuLinkMobile
               setMobileOpenFuc={setMobileOpen}
               servicesOpen={servicesOpen}

@@ -1,14 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-/**
- * NOTE: This file renders content verbatim from the provided brochure PDF.
- * Headings and copy are preserved (including capitalization and line breaks where meaningful).
- * Uses TailwindCSS classes and the user's color palette.
- */
-
-// ==============================
-// 1) Intro / Hero
-// ==============================
 export const CareerHero = () => {
   return (
     <section className="w-full bg-[#3E96F4] text-white">
@@ -204,211 +195,6 @@ export const WhatWeProvide = () => {
 // ==============================
 // 4) Exams After 12th – At a Glance (compact table)
 // ==============================
-const exams = [
-  {
-    sno: "1.",
-    name: "IIST",
-    conductedBy: "Indian Institute of Science & Technology",
-    app: "Integrated Degree Programmes",
-    month: "April",
-    mode: "Through National Entrance Exam",
-    website: "www.iist.ac",
-  },
-  {
-    sno: "2.",
-    name: "IISc",
-    conductedBy: "Indian Institute of Science, Bangalore",
-    app: "Integrated M.Sc. Programmes",
-    month: "Feb",
-    mode: "Through National Entrance Exam",
-    website: "www.iisc.ernet.in",
-  },
-  {
-    sno: "3.",
-    name: "CET",
-    conductedBy: "Maharashtra Govt.",
-    app: "Medical, Agri, Vet, Forestry, Fisheries, Engg. & Ar. Courses",
-    month: "Feb/March",
-    mode: "Through State Level Entrance Exam",
-    website: "www.mhcet.org",
-  },
-  {
-    sno: "4.",
-    name: "NEET",
-    conductedBy: "National Testing Agency (NTA)",
-    app: "MBBS-BDS",
-    month: "Feb/March",
-    mode: "Through National Entrance Exam",
-    website: "www.neet.nta.nic.in",
-  },
-  {
-    sno: "5.",
-    name: "CLAT",
-    conductedBy: "Chanakya Law University",
-    app: "Undergraduate Law Programmes",
-    month: "May/June",
-    mode: "Through National Level Entrance Exam",
-    website: "www.clat.ac.in",
-  },
-  {
-    sno: "6.",
-    name: "NDA",
-    conductedBy: "Union Public Service Commission",
-    app: "NDA & National Naval Academy",
-    month: "Feb/March",
-    mode: "Through National Level Entrance Exam",
-    website: "www.upsconline.nic.in",
-  },
-  {
-    sno: "7.",
-    name: "NATA",
-    conductedBy: "Council of Architecture",
-    app: "5 Year B.Arch Degree Courses",
-    month: "March",
-    mode: "Through National Entrance Exam",
-    website: "www.nata.nic.in",
-  },
-  {
-    sno: "8.",
-    name: "AIEEE",
-    conductedBy: "—",
-    app: "Integrated Degree Programmes",
-    month: "Feb/March",
-    mode: "Through National Level Entrance Exam",
-    website: "—",
-  },
-  {
-    sno: "9.",
-    name: "NEST",
-    conductedBy: "Deptt. of Atomic Energy Under Govt. of India",
-    app: "—",
-    month: "—",
-    mode: "Through National Entrance Exam",
-    website: "www.nestexam.in",
-  },
-  {
-    sno: "10.",
-    name: "KEAM",
-    conductedBy: "Commissioner of Entrance Exam, Govt. of Kerala",
-    app: "—",
-    month: "Feb/March",
-    mode: "Through National Entrance Exam",
-    website: "www.cee.kerala.gov.in",
-  },
-  {
-    sno: "11.",
-    name: "CMC Vellore",
-    conductedBy: "—",
-    app: "—",
-    month: "—",
-    mode: "Through National Entrance Exam",
-    website: "www.cmch-vellore.edu",
-  },
-  {
-    sno: "12.",
-    name: "VITEEE",
-    conductedBy: "—",
-    app: "—",
-    month: "Feb",
-    mode: "Through National Level Entrance Exam",
-    website: "www.vit.ac.in",
-  },
-  {
-    sno: "13.",
-    name: "BITSAT",
-    conductedBy: "BITS Pilani",
-    app: "—",
-    month: "March",
-    mode: "Through National Level Entrance Exam",
-    website: "www.bitsadmission.com",
-  },
-  {
-    sno: "14.",
-    name: "MH-CET",
-    conductedBy: "MHT-CET Board",
-    app: "—",
-    month: "Feb/March",
-    mode: "Common Entrance Test",
-    website: "www.mahacet.org",
-  },
-  {
-    sno: "15.",
-    name: "JEE (Advance)",
-    conductedBy: "—",
-    app: "—",
-    month: "June",
-    mode: "Based on JEE Advanced / KVPY Score / IIT-JEE Advanced / NEET Exam",
-    website: "www.jeeadv.iitd.ac.in",
-  },
-  {
-    sno: "16.",
-    name: "JEE (Main)",
-    conductedBy: "Department of Higher Education (NTA)",
-    app: "—",
-    month: "Feb",
-    mode: "Through National Level Entrance Exam",
-    website: "www.jeemain.nta.nic.in",
-  },
-];
-
-export const ExamsAtAGlance = () => {
-  return (
-    <section className="bg-[#F8FAFC]">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 py-8">
-        <div className="rounded-2xl bg-white p-6 ring-1 ring-gray-200 shadow-sm">
-          <h2 className="text-lg font-semibold text-[#31393C]">
-            EXAMS (CETS) - AFTER 12TH AT A GLANCE
-          </h2>
-          <div className="mt-4 overflow-x-auto">
-            <table className="min-w-full text-left text-sm">
-              <thead>
-                <tr className="border-b">
-                  <th className="py-2 pr-4 font-semibold text-[#31393C]">
-                    S.NO.
-                  </th>
-                  <th className="py-2 pr-4 font-semibold text-[#31393C]">
-                    NAME OF THE EXAMINATION
-                  </th>
-                  <th className="py-2 pr-4 font-semibold text-[#31393C]">
-                    CONDUCTED BY
-                  </th>
-                  <th className="py-2 pr-4 font-semibold text-[#31393C]">
-                    APPLICATION INVITED FOR
-                  </th>
-                  <th className="py-2 pr-4 font-semibold text-[#31393C]">
-                    NOTIFICATION MONTH
-                  </th>
-                  <th className="py-2 pr-4 font-semibold text-[#31393C]">
-                    MODE OF SELECTION
-                  </th>
-                  <th className="py-2 pr-4 font-semibold text-[#31393C]">
-                    WEBSITE
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {exams.map((e) => (
-                  <tr key={e.sno} className="border-b last:border-0 align-top">
-                    <td className="py-2 pr-4 text-gray-700 whitespace-nowrap">
-                      {e.sno}
-                    </td>
-                    <td className="py-2 pr-4 text-gray-700">{e.name}</td>
-                    <td className="py-2 pr-4 text-gray-700">{e.conductedBy}</td>
-                    <td className="py-2 pr-4 text-gray-700">{e.app}</td>
-                    <td className="py-2 pr-4 text-gray-700">{e.month}</td>
-                    <td className="py-2 pr-4 text-gray-700">{e.mode}</td>
-                    <td className="py-2 pr-4 text-gray-700">{e.website}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
 // ==============================
 // 5) NEET / JEE / NATA / MHT-CET (verbatim highlights)
 // ==============================
@@ -650,7 +436,35 @@ const CareerBrochurePage = () => {
       <CareerHero />
       <CareerTree />
       <WhatWeProvide />
-      <ExamsAtAGlance />
+      <div className="w-full flex flex-col justify-center ">
+        <div className="mx-auto">
+          <img
+            src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1761139493/after10_bdukqx.jpg"
+            alt=""
+            className="object-center"
+          />
+        </div>
+        <div className="mx-auto">
+          <img
+            src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1761138878/after12th_xbhkep.jpg"
+            alt=""
+            className="object-center"
+          />
+        </div>
+        <div className="mx-auto">
+          <img
+            src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1761140461/examsafter12_spnk4i.jpg"
+            alt=""
+            className="object-center"
+          />
+        </div>
+        <div className="mx-auto">
+          <img
+            src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1761138879/aftergrad_drvh2a.jpg"
+            alt=""
+          />
+        </div>
+      </div>
       <EntranceDetails />
       <MBBSAbroad />
     </main>

@@ -1,4 +1,3 @@
-import express from "express";
 import { countryModel } from "../model/Country.js";
 export const addNewCountry = async (req, res) => {
   const countries = req.body;

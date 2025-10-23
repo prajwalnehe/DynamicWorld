@@ -72,9 +72,7 @@ const StudyAbroadServices = () => {
           <h1 className="mt-3 text-2xl font-bold tracking-tight text-[#31393C] lg:text-3xl">
             End-to-End Guidance for Your Study Abroad Journey
           </h1>
-          <button className="bg-[#3E96F4] my-2 p-2 rounded-xl text-white font-semibold hover:scale-105 transition ease-in-out duration-300 hover:cursor-pointer">
-            Download Brochure
-          </button>
+         
         </div>
 
         <div className="mt-3 h-1 w-28 rounded-full bg-[#3E96F4]" />

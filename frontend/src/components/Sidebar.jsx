@@ -9,7 +9,7 @@ const Sidebar = ({
 }) => {
   return (
     <aside className="w-full lg:w-72 h-full">
-      <div className="bg-white rounded-xl  ring-1 ring-gray-200 overflow-hidden min-h-screen">
+      <div className="bg-white   ring-1 ring-gray-200 overflow-hidden min-h-screen">
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="px-4 py-3 sm:px-5 sm:py-4">
@@ -70,7 +70,11 @@ const Sidebar = ({
                           //   {items.length} k
                           // </span>
 
-                          <img src={section.url} alt={section.url} className="h-8 w-8" />
+                          <img
+                            src={section.url}
+                            alt={section.url}
+                            className="h-8 w-8"
+                          />
                         )}
                         {isOpen ? (
                           <ChevronDown className="w-4 h-4 text-gray-500 transition-transform" />

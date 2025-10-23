@@ -12,7 +12,7 @@ const Pillai01 = () => {
               <img
                 src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1759919773/Pillai_College_of_Engineering-Regular_Admission_k6uv8b.svg" // replace with PCE logo URL when available
                 alt="Pillai College Of Engineering Logo"
-                className="h-20 w-20 lg:w-50"
+                className=""
               />
             </div>
 

@@ -154,7 +154,7 @@ const ContactUs2 = () => {
       </div>
 
       {/* Content */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 -mt-6 pb-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-10">
         <div className="rounded-2xl bg-white shadow-sm ring-1 ring-gray-200 p-4 sm:p-6">
           {/* India section */}
           {indian.length > 0 && (

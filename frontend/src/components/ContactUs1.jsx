@@ -27,7 +27,7 @@ const ContactUs1 = () => {
       </header>
 
       {/* Cards Section */}
-      <main className="-mt-4 lg:-mt-4 px-5">
+      <main className="py-20  flex justify-center items-center">
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {/* Helpline */}

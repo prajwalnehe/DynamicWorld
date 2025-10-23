@@ -22,8 +22,8 @@ const Diploma02 = () => {
   }, []);
   return (
     <div className="min-h-screen w-full ">
-      <div className="mx-auto max-w-7xl">
-        <UniversityStrip/>
+      <UniversityStrip />
+      <div className="mx-auto">
         {isLoading ? (
           <p className="text-center mt-10">Loading...</p>
         ) : (

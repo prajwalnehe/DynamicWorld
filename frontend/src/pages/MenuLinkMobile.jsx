@@ -9,7 +9,7 @@ const MenuLinkMobile = ({
   servicesOpen,
 }) => {
   return (
-    <div className="bg-white w-full inset-0">
+    <div className="bg-white w-full min-h-screen inset-0">
       <NavLink
         to="/"
         onClick={() => setMobileOpenFuc(false)}
@@ -65,7 +65,6 @@ const MenuLinkMobile = ({
         </ul>
       )}
 
-     
       <NavLink
         to="/blog"
         onClick={() => setMobileOpenFuc(false)}

@@ -1,20 +1,18 @@
-import React, { Suspense } from "react";
+import { lazy, Suspense } from "react";
+import { CourseComponentsForCollege } from "../pages/CollegeAdmission";
+import Country from "../pages/Country";
 import DynamicWorldInfo from "../pages/DynamicWorldInfo";
-import { CourseComponents } from "../pages/VocationalCourses"; // e.g. { DVOC: lazy(...), ... }
 import {
   CourseComponentsForRegular,
   normalizeKeyForRegular,
 } from "../pages/RegularAdmmision";
-import { CourseComponentsForCollege } from "../pages/CollegeAdmission";
 import { CourseComponentsStudyAbroad } from "../pages/StudyAbroadSection";
-import Country from "../pages/Country";
+import { CourseComponents } from "../pages/VocationalCourses"; // e.g. { DVOC: lazy(...), ... }
+import RegularAdmissionSkeleton from "./RegularAdmissionSkeleton";
 import UniversitySkeleton from "./UniversitySkeleton";
 import VocationalSkeleton from "./VocationalSkeleton";
-import RegularAdmissionSkeleton from "./RegularAdmissionSkeleton";
-
-// Optional: if you have a separate shared details view, import and use it.
-// import UniversityDetails from "./UniversityDetails";
-
+// import CareerBrochurePage from "./CareerCounselling01";
+const CareerBrochurePage = lazy(() => import("./CareerCounselling01"));
 const normalizeKey = (s = "") => s.trim().toUpperCase();
 
 const MainContent = ({
@@ -25,6 +23,8 @@ const MainContent = ({
   countryData,
 }) => {
   const NAAC_BADGES = {
+    "B++":
+      "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761109743/BPlusPlus_jisyyb.webp",
     "A+": "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760872144/A_plus_mdt6x3.webp",
     "A++":
       "https://res.cloudinary.com/dtaitsw4r/image/upload/v1760872145/A_plus_plus_krg1rs.webp",
@@ -42,6 +42,15 @@ const MainContent = ({
   // Landing page when nothing selected yet
   if (!selected?.type) {
     return <DynamicWorldInfo />;
+  }
+
+  if (selected.type === "Career Guidance") {
+    console.log(selected.item);
+    return (
+      <Suspense fallback={<VocationalSkeleton />}>
+        <CareerBrochurePage />
+      </Suspense>
+    );
   }
 
   // =========== Vocational Courses ===========
@@ -100,14 +109,11 @@ const MainContent = ({
       <div className="p-6">Course not found.</div>
     );
   }
-
-  if (selected.type === "Study Abroad Countries") {
-    console.log(selected.item);
-  }
-
-  if (countryData) {
+  // =========== Country Details ===========
+  if (selected.type === "Study Abroad Countries" && countryData) {
     return <Country countryData={countryData} />;
   }
+
   // =========== Universities (Online / Distance) ===========
   // Some APIs return an array, others an object; normalize:
   const data = Array.isArray(universityData)
@@ -147,7 +153,7 @@ const MainContent = ({
               <img
                 src={images[0]}
                 alt={universityName}
-                className="w-full lg:p-1 sm:w-50 h-28 sm:h-28 object-cover rounded-lg ring-1 ring-gray-200 shadow"
+                className="w-full lg:p-1 object-cover rounded-lg ring-1 ring-gray-200 shadow"
               />
             </div>
           )}
@@ -330,6 +336,7 @@ const MainContent = ({
                 if (item.includes("A++")) badgeUrl = NAAC_BADGES["A++"];
                 else if (item.includes("A+")) badgeUrl = NAAC_BADGES["A+"];
                 else if (item.includes("A")) badgeUrl = NAAC_BADGES["A"];
+                else if (item.includes("B++")) badgeUrl = NAAC_BADGES["B++"];
 
                 return (
                   <div

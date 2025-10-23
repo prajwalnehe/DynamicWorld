@@ -41,6 +41,16 @@ export const dynamicWorldData = [
         details:
           "Maintains financial transparency through a defined return and refund policy.",
       },
+      {
+        name: "Regular Admissions",
+        details:
+          "Facilitates admissions to top on-campus universities across India with complete application-to-enrollment support.",
+      },
+      {
+        name: "Vocational Courses",
+        details:
+          "Supports skill-based learning pathways with admission assistance, practical training guidance, and industry-aligned placement support for vocational programs.",
+      },
     ],
     headOffice: {
       city: "Pune",
@@ -50,10 +60,20 @@ export const dynamicWorldData = [
       email: "support@dynamicworld.in",
     },
     branchOffices: [
-      { city: "Nagpur", state: "Maharashtra" },
-      { city: "Ahmedabad", state: "Gujarat" },
-      { city: "Indore", state: "Madhya Pradesh" },
-      { city: "Raipur", state: "Chhattisgarh" },
+      {
+        city: "Mumbai",
+        state: "Maharashtra",
+        address:
+          "Shop No 4, Neelkanth Apartment, Opp. Ganpatrao, Near Hirasen Women College Corner, Shahupuri (W), Mumbai 400078",
+      },
+  
+      {
+        city: "Indore",
+        state: "Madhya Pradesh",
+        address:
+          "Office No 617, Gham Plaza, AB Road, Near Industry House, Old Palasia, Indore 452006",
+      },
+   
       {
         city: "Surat",
         address:
@@ -63,7 +83,7 @@ export const dynamicWorldData = [
     authorizedCounselors:
       "Authorized counselors and associates are spread across multiple cities in India and abroad.",
     socialLinks: {
-      facebook: "https://www.facebook.com/p/Dynamic-World-61566819778877/",
+      youtube: "https://www.youtube.com/channel/UCOZRvMEWHmEKvKemIuF1gdg",
       instagram: "https://www.instagram.com/dynamicworld.in/",
       linkedin: "https://in.linkedin.com/company/dynamic-world",
     },
@@ -244,7 +264,7 @@ const DynamicWorldInfo = () => {
             {data.branchOffices.map((office, i) => (
               <li key={i} className="leading-relaxed">
                 <span className="font-medium text-gray-900">{office.city}</span>
-                {office.state ? <span>, {office.state}</span> : null}
+                {/* {office.state ? <span>, {office.state}</span> : null} */}
                 {office.address ? <span> — {office.address}</span> : null}
               </li>
             ))}
@@ -262,8 +282,8 @@ const DynamicWorldInfo = () => {
               Social Links
             </div>
             <div className="flex flex-wrap gap-2">
-              <LinkButton href={data.socialLinks.facebook} variant="outline">
-                Facebook
+              <LinkButton href={data.socialLinks.youtube} variant="outline">
+                YouTube
               </LinkButton>
               <LinkButton href={data.socialLinks.instagram} variant="outline">
                 Instagram

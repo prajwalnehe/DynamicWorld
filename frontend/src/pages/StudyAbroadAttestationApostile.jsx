@@ -457,12 +457,7 @@ const StudyAbroadAttestationApostile = () => {
                 >
                   Call 7738846286
                 </a>
-                <div className="col-span-2 flex justify-center">
-                  <button className="inline-flex grid-cols-2 items-center gap-2 px-6 py-3 rounded-xl bg-[#3E96F4] text-white  font-semibold shadow-md hover:bg-[#3E96F6] hover:text-black/80 transition duration-300 ease-in-out hover:cursor-pointer hover:-translate-y-1">
-                    Download Brochure
-                    <Download size={20} />
-                  </button>
-                </div>
+               
               </div>
               <div className="mt-4 text-sm">
                 <div className="font-medium">Address</div>

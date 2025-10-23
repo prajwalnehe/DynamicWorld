@@ -21,7 +21,7 @@ const SkillCourse02 = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl min-h-screen  text-[#333]">
+    <div className=" min-h-screen  text-[#333]">
       <UniversityStrip />
       <div className="w-full">
         {isLoading ? (
