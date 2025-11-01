@@ -53,7 +53,7 @@ export default function RegularUniversityList() {
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, "-")
             .replace(/(^-|-$)/g, ""),
-        name: u.universityName || "Unnamed University",
+        name: u.name || "Unnamed University",
         location: u.location?.city
           ? `${u.location.city}, ${u.location.state ?? ""}`.trim()
           : u.location || u.city || "",

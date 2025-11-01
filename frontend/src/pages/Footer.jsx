@@ -147,7 +147,7 @@ const Footer = () => {
                 {/* Services */}
                 <li className="group">
                   <NavLink
-                    to="/services"
+                    to="/"
                     onClick={() =>
                       window.scrollTo({ top: 0, behavior: "smooth" })
                     }
