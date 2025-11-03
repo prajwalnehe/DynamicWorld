@@ -127,7 +127,8 @@ export default function DistanceEducationUniversities() {
               <NavLink
                 key={u.id}
                 to={`${u.slug}`}
-                state={{ universityName: u.name }} // fallback for detail API
+                state={{ universityName: u.name }}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} // fallback for detail API
                 className="rounded-2xl border border-slate-200 bg-white overflow-hidden hover:shadow-md transition group"
               >
                 <div className="aspect-[4/3] w-full  overflow-hidden">
@@ -140,7 +141,9 @@ export default function DistanceEducationUniversities() {
                   />
                 </div>
                 <div className="p-4 bg-slate-100">
-                  <h2 className="text-xs lg:text-[15px] font-semibold">{u.name}</h2>
+                  <h2 className="text-xs lg:text-[15px] font-semibold">
+                    {u.name}
+                  </h2>
                   {u.location ? (
                     <p className="text-xs text-slate-500 mt-0.5">
                       {u.location}
@@ -155,4 +158,3 @@ export default function DistanceEducationUniversities() {
     </div>
   );
 }
-

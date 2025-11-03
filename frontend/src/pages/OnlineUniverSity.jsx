@@ -53,7 +53,7 @@ export default function OnlineUniverSity() {
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, "-")
             .replace(/(^-|-$)/g, ""),
-        name:  u.universityName || "Unnamed University",
+        name: u.universityName || "Unnamed University",
         location: u.location?.city
           ? `${u.location.city}, ${u.location.state ?? ""}`.trim()
           : u.location || u.city || "",
@@ -129,6 +129,7 @@ export default function OnlineUniverSity() {
                 to={`${u.slug}`}
                 state={{ universityName: u.name }} // fallback for detail API
                 className="rounded-2xl border border-slate-200 bg-white overflow-hidden hover:shadow-md transition group"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 <div className="aspect-[4/3] w-full  overflow-hidden">
                   <img
@@ -140,7 +141,9 @@ export default function OnlineUniverSity() {
                   />
                 </div>
                 <div className="p-4 bg-slate-100">
-                  <h2 className="text-xs lg:text-[15px] font-semibold line-clamp-1">{u.name}</h2>
+                  <h2 className="text-xs lg:text-[15px] font-semibold line-clamp-1">
+                    {u.name}
+                  </h2>
                   {u.location ? (
                     <p className="text-xs text-slate-500 mt-0.5">
                       {u.location}
