@@ -7,9 +7,9 @@ const studyAbroadLarge01 =
 const vocationalLarge =
   "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761715673/Black_Professional_School_Admission_Banner_1920_x_600_px_fulwxy.svg";
 const careerLarge =
-  "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761715481/Blue_Professional_Business_Visa_Service_Promotion_Web_Banner_1920_x_600_px_sgebxp.svg";
+  "https://res.cloudinary.com/dtaitsw4r/image/upload/v1762338767/Blue_Professional_Business_Visa_Service_Promotion_Web_Banner_1920_x_600_px_1_fqizwb.svg";
 const universitiesLarge =
-  "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761627956/Blue_Simple_Education_Coaching_Banner_Landscape_1920_x_600_px_himbva.svg";
+  "https://res.cloudinary.com/dtaitsw4r/image/upload/v1762339073/Blue_Simple_Education_Coaching_Banner_Landscape_1920_x_600_px_1_gnefjv.svg";
 const appostileLarge =
   "https://res.cloudinary.com/dtaitsw4r/image/upload/v1762175348/Purple_and_Yellow_Shapes_Middle_School_Back_to_School_Banner_1920_x_600_px_i3l3c2.png";
 
@@ -22,7 +22,7 @@ const careerMobile =
 const career =
   "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761898214/Blue_And_White_Creative_Study_Abroad_In_Korea_Instagram_Post_1920_x_600_px_1080_x_1080_px_2_azrwlc.png";
 const vocationalMobile =
-  "https://res.cloudinary.com/dtaitsw4r/image/upload/v1762175503/Blue_Simple_Education_Coaching_Banner_Landscape_1920_x_600_px_1080_x_1080_px_qdxvcu.svg";
+  "https://res.cloudinary.com/dtaitsw4r/image/upload/v1762339554/Complete_Your_Education_cujkqi.svg";
 
 const MobileScreenBanners = [
   vocationalMobile,
