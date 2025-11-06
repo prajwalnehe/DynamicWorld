@@ -434,7 +434,7 @@ const CareerBrochurePage = () => {
   return (
     <main className="min-h-screen w-full bg-white text-[#31393C]">
       <CareerHero />
-      <CareerTree />
+      {/* <CareerTree /> */}
       <WhatWeProvide />
       <div className="w-full flex flex-col justify-center ">
         <div className="mx-auto">
