@@ -93,7 +93,7 @@ const MainContent = ({
     );
   }
 
-  if (selected.type === "Attestation") {
+  if (selected.type === "Attestation & Apostile") {
     console.log(selected.item);
     const key = normalizeKey(selected.item);
     console.log(key);

@@ -29,7 +29,7 @@ const Footer = () => {
                   <li className="hover:scale-105 transition duration-500 ease-in-out">
                     <a
                       className="hover:text-green-400 transition-colors text-sm"
-                      href="https://wa.me/919820401375"
+                      href="https://wa.me/917887881060"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -149,9 +149,9 @@ const Footer = () => {
                   </span>
                   <a
                     className="hover:text-blue-400 transition-colors text-sm"
-                    href="tel:+919820401375"
+                    href="tel:+917887881060"
                   >
-                    +91 9820401375
+                    +91 7887881060
                   </a>
                 </li>
                 <li className="flex items-start gap-3 group">
@@ -170,7 +170,7 @@ const Footer = () => {
                   </span>
                   <a
                     className="hover:text-blue-400 transition-colors text-sm"
-                    href="https://wa.me/919820401375"
+                    href="https://wa.me/917887881060"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -260,7 +260,7 @@ const Footer = () => {
                 </li> */}
               </ul>
               <a
-                href="https://wa.me/919820401375"
+                href="https://wa.me/917887881060"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#3e96f4] hover:to-purple-500 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105 text-sm"

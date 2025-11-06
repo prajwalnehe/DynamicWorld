@@ -8,10 +8,10 @@ const HomePage = () => {
   return (
     <div className="">
       <Hero />
-      <DynamicCountries />
       <StudyAbroadServices />
-      <StudyAbroadTestimonials />
       <ContactForm />
+      <DynamicCountries />
+      <StudyAbroadTestimonials />
     </div>
   );
 };

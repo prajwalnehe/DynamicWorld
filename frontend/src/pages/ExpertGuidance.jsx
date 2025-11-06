@@ -47,7 +47,7 @@ const fallbackExperts = [
     name: "Neha",
     experience: "12+ Years Experience",
     phone: "7887881060",
-    specialty: "Placements & Internships",
+    specialty: "Career Counselling",
     rating: 4.8,
     image:
       "https://res.cloudinary.com/dtaitsw4r/image/upload/v1761895819/Neha_dhm34g.jpg",

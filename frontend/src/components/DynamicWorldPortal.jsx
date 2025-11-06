@@ -171,8 +171,8 @@ const DynamicWorldPortal = () => {
         items: collegeAdmission,
       },
       {
-        title: "Attestation",
-        type: "Attestation",
+        title: "Attestation & Apostile",
+        type: "Attestation & Apostile",
         url: "https://res.cloudinary.com/dtaitsw4r/image/upload/v1762177440/approval-granted_mvxbyj.png",
         items: studyAbroad,
       },

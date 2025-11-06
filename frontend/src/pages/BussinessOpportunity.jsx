@@ -1,11 +1,12 @@
 import React from "react";
-import { BussinessPartner01, BussinessPartner02 } from "../components/BussinessOpportunity01";
+import { BusinessPartner01, BusinessPartner02 } from "../components/BussinessOpportunityPages";
+
 
 const BussinessOpportunity = () => {
   return (
     <div>
-      <BussinessPartner01 />
-      <BussinessPartner02/>
+      <BusinessPartner01 />
+      <BusinessPartner02/>
     </div>
   );
 };

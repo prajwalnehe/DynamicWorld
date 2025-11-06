@@ -3,8 +3,8 @@ import ContactForm from "./ContectForm";
 const COLORS = { brand: "#3E96F4", text: "#31393C" };
 export default function InquiryDetails({
   title = "Admission Inquiry Form",
-  phone = "+919820401375",
-  waPhone = "919820401375",
+  phone = "+917887881060",
+  waPhone = "917887881060",
   hours = "Mon–Sun, 10:00 AM – 7:00 PM",
   RightForm = ContactForm,
 }) {

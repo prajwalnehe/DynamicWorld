@@ -262,10 +262,10 @@ const ConfusedAboutCollege02 = () => {
                     Call us on our Toll-Free Number:{" "}
                   </span>
                   <a
-                    href="tel:919820401375"
+                    href="tel:917887881060"
                     className="text-yellow-300 underline text-sm sm:text-base font-medium hover:text-yellow-200 transition-colors duration-200 cursor-pointer"
                   >
-                    9820401375
+                    7887881060
                   </a>
                 </div>
               </div>
