@@ -238,7 +238,7 @@ const MainContent = ({
         <section className="rounded-xl bg-white shadow-sm ring-1 ring-gray-200 p-4 sm:p-6">
           <header className="mb-3 sm:mb-4">
             <h2 className="text-lg sm:text-xl font-semibold text-gray-900">
-              Online Education
+             Education
             </h2>
           </header>
           <ul className="list-disc list-inside space-y-2 text-sm sm:text-base text-gray-700">

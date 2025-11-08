@@ -31,12 +31,68 @@ const DynamicWorldPortal = () => {
   const handleApi01 = useCallback(async () => {
     try {
       const res = await axios.get(`${api}/onlineUniversitiesV2`);
-
       const universities = res.data?.data || [];
 
-      setOnlineUniversity(
-        dedupe(universities.map((u) => tidy(u.universityName)))
-      );
+      // Deduplicate and tidy
+      const cleaned = dedupe(universities.map((u) => tidy(u.universityName)));
+
+      // Define your preferred order
+      const order = [
+        "DY Patil University, Navi Mumbai",
+        "Dr. DY Patil Vidyapeeth, Pune",
+        "NMIMS University",
+        "Welingkar Institute of Management",
+        "OP Jindal Global University",
+        "Vivekanand Global University",
+        "VIT University",
+        "IIT School of Distance Education",
+        "Amity Online",
+        "Parul University",
+        "Mangalayatan University",
+        "Yenepoya University",
+        "Lovely Professional University",
+        "Manav Rachna University (MRU)",
+        "Chandigarh University",
+        "Sharda University",
+        "Bharathidasan University",
+        "Suresh Gyan Vihar University",
+        "Sikkim Manipal University",
+        "Manipal University Jaipur",
+        "Manipal Academy of Higher Education",
+        "Bharath University",
+        "Dr. MGR University",
+        "Mats University",
+        "Mizoram University",
+        "Aligarh Muslim University",
+        "Jamia Hamdard University",
+        "Uttaranchal University",
+        "Kurukshetra University",
+        "KL University",
+        "Vignan University",
+        "Chitkara University",
+        "UPES University",
+        "Kalinga Institute of Industrial Technology",
+        "Shoolini University",
+        "Maharishi Makrandeshwar University",
+        "Andhra University",
+        "Centurion University",
+        "Hindustan University",
+        "GLA University",
+      ];
+
+      // Sort according to the defined order
+      const sorted = cleaned.sort((a, b) => {
+        const idxA = order.indexOf(a);
+        const idxB = order.indexOf(b);
+
+        // If not found, push to the end (retain unknowns at bottom)
+        if (idxA === -1 && idxB === -1) return 0;
+        if (idxA === -1) return 1;
+        if (idxB === -1) return -1;
+        return idxA - idxB;
+      });
+
+      setOnlineUniversity(sorted);
     } catch (e) {
       console.error("Error fetching online universities:", e);
       setOnlineUniversity([]);
@@ -48,33 +104,106 @@ const DynamicWorldPortal = () => {
     try {
       const res = await axios.get(`${api}/getAllUniversitiesV2`);
       const universities = res.data?.data || [];
-      setDistanceUniversity(
-        dedupe(universities.map((u) => tidy(u.universityName)))
-      );
+
+      // Clean and deduplicate
+      const cleaned = dedupe(universities.map((u) => tidy(u.universityName)));
+
+      // Define your manual order
+      const order = [
+        "Subharti University",
+        "Mangalayatan University",
+        "Suresh Gyan Vihar University",
+        "Mumbai University",
+        "Savitribai Phule Pune University",
+        "AISECT University",
+        "Tilak Maharashtra Vidyapeeth",
+        "Dr. CV Raman University-Bihar",
+        "Dr. CV Raman University-MP",
+        "Dr. CV Raman University-Chattisgarh",
+        "Rabindranath Tagore University",
+        "MATS University",
+      ];
+
+      // Sort according to custom order
+      const sorted = cleaned.sort((a, b) => {
+        const idxA = order.indexOf(a);
+        const idxB = order.indexOf(b);
+
+        if (idxA === -1 && idxB === -1) return 0; // both not found
+        if (idxA === -1) return 1; // A not found → move down
+        if (idxB === -1) return -1; // B not found → move up
+        return idxA - idxB; // preserve defined order
+      });
+
+      setDistanceUniversity(sorted);
     } catch (e) {
       console.error("Error fetching distance universities:", e);
       setDistanceUniversity([]);
     }
   }, [api]);
 
-  const handleApi03 = useCallback(async () => {
-    try {
-      const { data } = await axios.get(`${api}/countries`);
-
-      const countries = data?.data || [];
-      setCountriesList(dedupe(countries.map((c) => tidy(c.countryName))));
-    } catch (error) {
-      console.error("Error fetching countries:", error);
-      setCountriesList([]);
-    }
-  }, [api]);
   const handleApi04 = useCallback(async () => {
     try {
       const { data } = await axios.get(`${api}/regular-list`);
-      const universities = data?.data;
-      setRegularList(dedupe(universities.map((c) => tidy(c.name))));
+      const universities = data?.data || [];
+
+      // Clean and deduplicate
+      const cleaned = dedupe(universities.map((c) => tidy(c.name)));
+
+      // Define your manual order
+      const order = [
+        "Mumbai University",
+        "Transstadia Institute (Mumbai)",
+        "N.L. Dalmia Institute of Mngt",
+        "PILLAI college of engineering",
+        "Chhatrapati Shivaji Maharaj University",
+        "Dr. DY Patil Institute of Engineering",
+        "MIT-WPU",
+        "Bharati Vidyapeeth College",
+        "Ajeenkya DY Patil University",
+        "Sinhgad College of Engineering",
+        "MIT AOE",
+        "Pimpri Chinchwad College of Engineering",
+        "Balaji Institute of Modern Management",
+        "Dr. DY Patil Institute of Engineering",
+        "MIT ADT",
+        "Pune Institute of Management",
+        "AI Universal University",
+        "Arham International Institute",
+        "Navsahyadri Group of Institutes",
+        "IOMS Group of Institute",
+        "Raisoni University",
+        "Parul University",
+        "Dr A.P.J Abdul Kalam University",
+        "Oriental University",
+        "Yenepoya (Deemed to be University)",
+
+        "S-VYASA University",
+        "NIAT",
+        "Dr. Preeti Global University",
+        "Harsha Institute of Nursing",
+
+        "SAGE University Indore",
+        "SGT University",
+        "SMT Laxmi Devi Group Of Institute",
+        "Rosy Royal Institute of Bangalore",
+      ];
+
+      // Sort according to defined order
+      const sorted = cleaned.sort((a, b) => {
+        const idxA = order.indexOf(a);
+        const idxB = order.indexOf(b);
+
+        // If not found, move unknown universities to the bottom
+        if (idxA === -1 && idxB === -1) return 0;
+        if (idxA === -1) return 1;
+        if (idxB === -1) return -1;
+        return idxA - idxB;
+      });
+
+      setRegularList(sorted);
     } catch (error) {
-      console.error("Error fetching countries:", error);
+      console.error("Error fetching regular universities:", error);
       setRegularList([]);
     }
   }, [api]);
@@ -82,12 +211,7 @@ const DynamicWorldPortal = () => {
   useEffect(() => {
     (async () => {
       try {
-        await Promise.all([
-          handleApi01(),
-          handleApi02(),
-          handleApi03(),
-          handleApi04(),
-        ]);
+        await Promise.all([handleApi01(), handleApi02(), handleApi04()]);
       } catch (e) {
         console.error("Error bootstrapping data:", e);
       } finally {
@@ -101,7 +225,7 @@ const DynamicWorldPortal = () => {
         reqAbortRef.current.abort();
       }
     };
-  }, [handleApi01, handleApi02, handleApi03, handleApi04]);
+  }, [handleApi01, handleApi02, handleApi04]);
 
   const vocationCourses = useMemo(
     () => ["DVOC", "BVOC", "MVOC", "DIPLOMA", "SKILL COURSE", "UPGRAD"],

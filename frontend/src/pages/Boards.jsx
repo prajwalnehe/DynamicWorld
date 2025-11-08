@@ -2,18 +2,18 @@ import React from "react";
 
 const SECTIONS = [
   { id: "msbshse", no: "1", title: "Maharashtra State Board (MSBSHSE)" },
-  { id: "nios", no: "2", title: "NIOS (National Institute of Open Schooling)" },
   {
     id: "bosse",
-    no: "3",
+    no: "2",
     title: "BOSSE (Board of Open Schooling and Skill Education, Sikkim)",
   },
-  { id: "jua", no: "4", title: "Jamia Urdu Aligarh (JUA)" },
   {
     id: "nwac",
-    no: "5",
+    no: "3",
     title: "Northwest Accreditation Commission (NWAC), USA",
   },
+  { id: "jua", no: "4", title: "Jamia Urdu Aligarh (JUA)" },
+  { id: "nios", no: "5", title: "NIOS (National Institute of Open Schooling)" },
 ];
 
 const Chip = ({ children }) => (
@@ -92,7 +92,7 @@ const Boards = () => {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-5 md:gap-7 lg:gap-10">
           {/* Main column */}
           <div className="space-y-6 md:space-y-8">
-            {/* 1. Maharashtra Board */}
+         
             <Card
               id="msbshse"
               header="1. Maharashtra State Board (MSBSHSE)"
@@ -147,11 +147,156 @@ const Boards = () => {
                 <li>Certificates available digitally via DigiLocker.</li>
               </ul>
             </Card>
+            <Card
+              id="bosse"
+              header="2. BOSSE (Board of Open Schooling and Skill Education, Sikkim)"
+              logo="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762331435/logo_byljnb.png"
+              logoAlt="BOSSE Logo"
+            >
+              <p>
+                BOSSE is a state open schooling board established by the
+                Government of Sikkim, recognized for secondary and senior
+                secondary education with academic and vocational options.
+              </p>
 
-            {/* 2. NIOS */}
+              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
+                Recognition and Approvals
+              </h3>
+              <ul className="mt-2 space-y-1 list-disc pl-5">
+                <li>Member of COBSE.</li>
+                <li>
+                  Granted AIU equivalence for higher education and employment.
+                </li>
+                <li>
+                  Recognized by NIOS and professional councils like PCI and INC.
+                </li>
+              </ul>
+
+              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
+                Streams and Subjects
+              </h3>
+              <ul className="mt-2 space-y-1 list-disc pl-5">
+                <li>
+                  <b>Languages:</b> Hindi, English, Urdu, Sanskrit, Bengali,
+                  Tamil.
+                </li>
+                <li>
+                  <b>Academic:</b> Mathematics, Physics, Chemistry, Biology,
+                  Economics, Business Studies.
+                </li>
+                <li>
+                  <b>Vocational:</b> Data Entry, Secretarial Practice,
+                  Entrepreneurship, House Keeping.
+                </li>
+              </ul>
+            </Card>
+            <Card
+              id="nwac"
+              header="3. Northwest Accreditation Commission (NWAC), USA"
+              logo="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762331435/Northwest_Accreditation_Commission__NWAC__Logo_gb58yf.jpg"
+              logoAlt="NWAC"
+            >
+              <p>
+                NWAC is a U.S.-based accreditation body that offers an American
+                High School Diploma recognized in India as equivalent to Grade
+                12.
+              </p>
+
+              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
+                Recognition and Approvals
+              </h3>
+              <ul className="mt-2 space-y-1 list-disc pl-5">
+                <li>Associate Member of COBSE since 2019.</li>
+                <li>
+                  AIU accords equivalence to Grade 12/Senior Secondary (+2)
+                  level in India.
+                </li>
+                <li>
+                  Accepted for higher education and university admissions across
+                  India.
+                </li>
+              </ul>
+
+              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
+                Streams and Subjects
+              </h3>
+              <ul className="mt-2 space-y-1 list-disc pl-5">
+                <li>
+                  <b>Science:</b> English, Physics, Chemistry, Mathematics,
+                  Biology, Computer Science, Psychology.
+                </li>
+                <li>
+                  <b>Commerce:</b> Accountancy, Business Studies, Economics,
+                  English, Mathematics, Computer Science.
+                </li>
+                <li>
+                  <b>Arts:</b> English, History, Political Science, Sociology,
+                  Psychology, Mathematics.
+                </li>
+              </ul>
+            </Card>
+            <Card
+              id="jua"
+              header="4. Jamia Urdu Aligarh (JUA)"
+              logo="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762331435/images_dhoviz.jpg"
+              logoAlt="Jamia Urdu Aligarh"
+            >
+              <p>
+                Jamia Urdu Aligarh, established in 1939, promotes Urdu education
+                and offers recognized secondary (Adeeb) and senior secondary
+                (Adeeb-e-Mahir) programs equivalent to Classes 10 and 12.
+              </p>
+
+              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
+                Recognition and Approvals
+              </h3>
+              <ul className="mt-2 space-y-1 list-disc pl-5">
+                <li>Member of COBSE.</li>
+                <li>
+                  Recognized by the Government of India for employment purposes.
+                </li>
+                <li>Minority status under the NCMEI Act 2004.</li>
+                <li>
+                  AIU equivalence varies by university; advised to confirm at
+                  the time of admission.
+                </li>
+              </ul>
+
+              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
+                Streams and Courses
+              </h3>
+              <p>JUA offers two major programs:</p>
+              <ul className="mt-2 space-y-1 list-disc pl-5">
+                <li>
+                  <b>Adeeb:</b> Class 10 equivalent.
+                </li>
+                <li>
+                  <b>Adeeb-e-Mahir:</b> Class 12 equivalent (Arts, Commerce,
+                  Science).
+                </li>
+              </ul>
+
+              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
+                Selected Subjects
+              </h3>
+              <ul className="mt-2 space-y-1 list-disc pl-5">
+                <li>
+                  <b>Languages:</b> Urdu, English, Hindi, Punjabi, Bengali.
+                </li>
+                <li>
+                  <b>Core Academic:</b> Physics, Chemistry, Biology,
+                  Mathematics, History, Political Science, Economics, Business
+                  Studies, Accountancy.
+                </li>
+                <li>
+                  <b>Professional Courses:</b> Moallim-e-Urdu, B.Ed., D.El.Ed.
+                  (recognized by NCTE/State Universities).
+                </li>
+              </ul>
+            </Card>
             <Card
               id="nios"
-              header="2. NIOS (National Institute of Open Schooling)"
+              header="5. NIOS (National Institute of Open Schooling)"
               logo="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762331435/NIOS-National-Institute-of-Open-Schooling-Logo_wfvnhw.png"
               logoAlt="NIOS Logo"
             >
@@ -214,159 +359,6 @@ const Boards = () => {
                 <li>
                   Transfer of Credit: Up to two passed subjects from other
                   boards can be carried over.
-                </li>
-              </ul>
-            </Card>
-
-            {/* 3. BOSSE */}
-            <Card
-              id="bosse"
-              header="3. BOSSE (Board of Open Schooling and Skill Education, Sikkim)"
-              logo="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762331435/logo_byljnb.png"
-              logoAlt="BOSSE Logo"
-            >
-              <p>
-                BOSSE is a state open schooling board established by the
-                Government of Sikkim, recognized for secondary and senior
-                secondary education with academic and vocational options.
-              </p>
-
-              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
-                Recognition and Approvals
-              </h3>
-              <ul className="mt-2 space-y-1 list-disc pl-5">
-                <li>Member of COBSE.</li>
-                <li>
-                  Granted AIU equivalence for higher education and employment.
-                </li>
-                <li>
-                  Recognized by NIOS and professional councils like PCI and INC.
-                </li>
-              </ul>
-
-              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
-                Streams and Subjects
-              </h3>
-              <ul className="mt-2 space-y-1 list-disc pl-5">
-                <li>
-                  <b>Languages:</b> Hindi, English, Urdu, Sanskrit, Bengali,
-                  Tamil.
-                </li>
-                <li>
-                  <b>Academic:</b> Mathematics, Physics, Chemistry, Biology,
-                  Economics, Business Studies.
-                </li>
-                <li>
-                  <b>Vocational:</b> Data Entry, Secretarial Practice,
-                  Entrepreneurship, House Keeping.
-                </li>
-              </ul>
-            </Card>
-
-            {/* 4. Jamia Urdu Aligarh */}
-            <Card
-              id="jua"
-              header="4. Jamia Urdu Aligarh (JUA)"
-              logo="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762331435/images_dhoviz.jpg"
-              logoAlt="Jamia Urdu Aligarh"
-            >
-              <p>
-                Jamia Urdu Aligarh, established in 1939, promotes Urdu education
-                and offers recognized secondary (Adeeb) and senior secondary
-                (Adeeb-e-Mahir) programs equivalent to Classes 10 and 12.
-              </p>
-
-              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
-                Recognition and Approvals
-              </h3>
-              <ul className="mt-2 space-y-1 list-disc pl-5">
-                <li>Member of COBSE.</li>
-                <li>
-                  Recognized by the Government of India for employment purposes.
-                </li>
-                <li>Minority status under the NCMEI Act 2004.</li>
-                <li>
-                  AIU equivalence varies by university; advised to confirm at
-                  the time of admission.
-                </li>
-              </ul>
-
-              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
-                Streams and Courses
-              </h3>
-              <p>JUA offers two major programs:</p>
-              <ul className="mt-2 space-y-1 list-disc pl-5">
-                <li>
-                  <b>Adeeb:</b> Class 10 equivalent.
-                </li>
-                <li>
-                  <b>Adeeb-e-Mahir:</b> Class 12 equivalent (Arts, Commerce,
-                  Science).
-                </li>
-              </ul>
-
-              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
-                Selected Subjects
-              </h3>
-              <ul className="mt-2 space-y-1 list-disc pl-5">
-                <li>
-                  <b>Languages:</b> Urdu, English, Hindi, Punjabi, Bengali.
-                </li>
-                <li>
-                  <b>Core Academic:</b> Physics, Chemistry, Biology,
-                  Mathematics, History, Political Science, Economics, Business
-                  Studies, Accountancy.
-                </li>
-                <li>
-                  <b>Professional Courses:</b> Moallim-e-Urdu, B.Ed., D.El.Ed.
-                  (recognized by NCTE/State Universities).
-                </li>
-              </ul>
-            </Card>
-
-            {/* 5. NWAC */}
-            <Card
-              id="nwac"
-              header="5. Northwest Accreditation Commission (NWAC), USA"
-              logo="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762331435/Northwest_Accreditation_Commission__NWAC__Logo_gb58yf.jpg"
-              logoAlt="NWAC"
-            >
-              <p>
-                NWAC is a U.S.-based accreditation body that offers an American
-                High School Diploma recognized in India as equivalent to Grade
-                12.
-              </p>
-
-              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
-                Recognition and Approvals
-              </h3>
-              <ul className="mt-2 space-y-1 list-disc pl-5">
-                <li>Associate Member of COBSE since 2019.</li>
-                <li>
-                  AIU accords equivalence to Grade 12/Senior Secondary (+2)
-                  level in India.
-                </li>
-                <li>
-                  Accepted for higher education and university admissions across
-                  India.
-                </li>
-              </ul>
-
-              <h3 className="mt-4 md:mt-5 text-base md:text-lg font-semibold">
-                Streams and Subjects
-              </h3>
-              <ul className="mt-2 space-y-1 list-disc pl-5">
-                <li>
-                  <b>Science:</b> English, Physics, Chemistry, Mathematics,
-                  Biology, Computer Science, Psychology.
-                </li>
-                <li>
-                  <b>Commerce:</b> Accountancy, Business Studies, Economics,
-                  English, Mathematics, Computer Science.
-                </li>
-                <li>
-                  <b>Arts:</b> English, History, Political Science, Sociology,
-                  Psychology, Mathematics.
                 </li>
               </ul>
             </Card>
