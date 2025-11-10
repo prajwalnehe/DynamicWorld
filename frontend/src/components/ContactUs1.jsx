@@ -10,11 +10,11 @@ const ContactUs1 = () => {
   const buttonBase =
     "inline-flex items-center justify-center rounded-lg font-medium transition-all hover:-translate-y-0.5";
   const blueBtn = "bg-[#3E96F4] text-white hover:bg-[#2f79c4]";
-  const grayBtn =
-    "bg-gray-100 text-[#31393C] ring-1 ring-gray-200 hover:bg-gray-200";
+  const charcoalBtn =
+    "bg-[#31393C] text-white hover:bg-[#1f2426]";
 
   return (
-    <div className="w-full bg-[#EDEEEB] text-[#31393C]">
+    <section className="w-full bg-gradient-to-b from-[#FFFFFF] via-[#EDEEEB] to-[#CCC7BF]/35 text-[#31393C]">
       {/* Top Header */}
       <header className="bg-[#3E96F4] text-white">
         <div className="mx-auto max-w-7xl py-10">
@@ -37,7 +37,7 @@ const ContactUs1 = () => {
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             {/* Helpline */}
-            <div className="group rounded-2xl bg-gray-50 shadow-sm ring-1 ring-gray-200 p-6 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5">
+            <div className="group rounded-2xl bg-white shadow-sm ring-1 ring-[#DDD9CF] p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
               <div className="flex items-start gap-4">
                 <div className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-[#3E96F4] ring-1 ring-blue-100">
                   {/* Phone icon */}
@@ -51,15 +51,14 @@ const ContactUs1 = () => {
                   </svg>
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                  <p className="text-xs uppercase tracking-wide text-[#31393C]/60">
                     Helpline
                   </p>
                   <h3 className="mt-1 text-lg font-semibold text-[#31393C]">
                     (+91) 9820401375
                   </h3>
-                  <p className="mt-1 text-sm text-gray-600">
-                    Talk to our counsellor for quick assistance.” to appear
-                    across three lines for better visual balance
+                  <p className="mt-1 text-sm text-[#31393C]/70">
+                    Talk to our counsellor for quick assistance. We are close to your goals and ready to guide you forward.
                   </p>
 
                   {/* Aligned Buttons */}
@@ -74,7 +73,7 @@ const ContactUs1 = () => {
                       href="https://wa.me/919820401375"
                       target="_blank"
                       rel="noreferrer"
-                      className={`${buttonBase} ${grayBtn} px-5 py-2.5 text-sm`}
+                      className={`${buttonBase} ${charcoalBtn} px-5 py-2.5 text-sm`}
                     >
                       WhatsApp
                     </a>
@@ -84,7 +83,7 @@ const ContactUs1 = () => {
             </div>
 
             {/* Head Office */}
-            <div className="group rounded-2xl bg-gray-50 shadow-sm ring-1 ring-gray-200 p-6 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5">
+            <div className="group rounded-2xl bg-white shadow-sm ring-1 ring-[#DDD9CF] p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
               <div className="flex items-start gap-4">
                 <div className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-rose-50 text-rose-600 ring-1 ring-rose-100">
                   {/* Building icon */}
@@ -98,13 +97,13 @@ const ContactUs1 = () => {
                   </svg>
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                  <p className="text-xs uppercase tracking-wide text-[#31393C]/60">
                     Head Office
                   </p>
                   <h3 className="mt-1 text-lg font-semibold text-[#31393C]">
                     Pune, India
                   </h3>
-                  <p className="mt-2 text-sm text-gray-700 leading-snug">
+                  <p className="mt-2 text-sm text-[#31393C]/75 leading-snug">
                     Office No. 506, 5th Floor, Sterling Center
                     <br />
                     Opposite Arora Tower, MG Road, Camp
@@ -125,7 +124,7 @@ const ContactUs1 = () => {
                       href="https://maps.google.com/?q=Dynamic%20World%20Pune"
                       target="_blank"
                       rel="noreferrer"
-                      className={`${buttonBase} ${grayBtn} px-5 py-2.5 text-sm`}
+                      className={`${buttonBase} ${charcoalBtn} px-5 py-2.5 text-sm`}
                     >
                       Get Directions
                     </a>
@@ -135,7 +134,7 @@ const ContactUs1 = () => {
             </div>
 
             {/* Support Mail */}
-            <div className="group rounded-2xl bg-gray-50 shadow-sm ring-1 ring-gray-200 p-6 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5">
+            <div className="group rounded-2xl bg-white shadow-sm ring-1 ring-[#DDD9CF] p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
               <div className="flex items-start gap-4">
                 <div className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 ring-1 ring-emerald-100">
                   {/* Mail icon */}
@@ -149,13 +148,13 @@ const ContactUs1 = () => {
                   </svg>
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                  <p className="text-xs uppercase tracking-wide text-[#31393C]/60">
                     Support Mail
                   </p>
                   <h3 className="mt-1 text-lg font-semibold text-[#31393C]">
                     Dynamicworld.edu@gmail.com
                   </h3>
-                  <p className="mt-1 text-sm text-gray-600">
+                  <p className="mt-1 text-sm text-[#31393C]/70">
                     Drop us a line and we’ll get back to you.
                     Write an email to our counsellor for quick assistance.
                   </p>
@@ -169,7 +168,7 @@ const ContactUs1 = () => {
                     </a>
                     <a
                       href="mailto:support@dynamicworld.in?subject=Inquiry%20via%20Website&body=Hi%20Dynamic%20World%20Team,%0A%0A"
-                      className={`${buttonBase} ${grayBtn} px-5 py-2.5 text-sm`}
+                      className={`${buttonBase} ${charcoalBtn} px-5 py-2.5 text-sm`}
                     >
                       Quick Template
                     </a>
@@ -182,7 +181,7 @@ const ContactUs1 = () => {
           <div className="h-8" />
         </div>
       </main>
-    </div>
+    </section>
   );
 };
 

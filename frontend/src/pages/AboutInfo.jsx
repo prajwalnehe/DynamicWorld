@@ -53,7 +53,7 @@ const AboutInfo = () => {
           <NavLink
             to="/services/online-education"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="bg-[#3E96F4] text-white px-8 py-3 font-medium rounded-full shadow hover:shadow-lg hover:bg-blue-600 transition-all duration-300"
+            className="bg-blue-600 text-white px-8 py-3 font-medium rounded-full shadow hover:shadow-lg hover:bg-blue-700 transition-all duration-300"
           >
             All Universities
           </NavLink>
@@ -64,7 +64,7 @@ const AboutInfo = () => {
           {infoCards.map((card) => (
             <div
               key={card.id}
-              className="bg-[#3E96F4] text-white rounded-2xl p-6 flex flex-col items-center justify-center shadow-md hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
+              className="bg-blue-600 text-white rounded-2xl p-6 flex flex-col items-center justify-center shadow-md hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
             >
               <div className="flex justify-center items-center w-16 h-16 mb-4 bg-white/20 rounded-full">
                 <img

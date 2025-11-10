@@ -12,6 +12,7 @@ import CookiePolicy from "../pages/CookiePolicy";
 import ReturnAndRefund from "../pages/ReturnAndRefund";
 import HomePage from "../pages/HomePage";
 import AboutUs from "../pages/AboutUs";
+import MbbsInAbroad from '../pages/MbbsInAbroad'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ export const router = createBrowserRouter(
       {/* <Route path="/countries" element={} /> */}
       <Route path="/visa-services" element={<StudyAbroadVisaServies />} />
       <Route path="/immigration" element={<StudyAbroadImmigration />} />
+      <Route path="/mbbs-in-abroad" element={<MbbsInAbroad/>}/>
       <Route path="/about-us" element={<AboutUs/>} />
       {/* <Route path="contact-us"></Route> */}
       <Route path="/return-and-refund" element={<ReturnAndRefund />} />

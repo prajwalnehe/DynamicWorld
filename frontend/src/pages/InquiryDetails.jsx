@@ -20,8 +20,8 @@ export default function InquiryDetails({
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 bg-white rounded-2xl sm:rounded-3xl shadow-xl sm:shadow-2xl overflow-hidden">
         {/* Left: Information & CTAs */}
         <section
-          className="text-white flex flex-col justify-center items-center p-6 sm:p-8 lg:p-10"
-          style={{ background: COLORS.brand }}
+          className="text-white flex flex-col justify-center items-center p-6 sm:p-8 lg:p-10 bg-blue-600"
+          // style={{ background: COLORS.brand }}
         >
           <div className="w-full max-w-prose text-center">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold">

@@ -1,12 +1,19 @@
 import React from "react";
-import { BusinessPartner01, BusinessPartner02 } from "../components/BussinessOpportunityPages";
+import {
+  BusinessPartner01,
+  BusinessPartner02,
+  BusinessPartnerBenefits,
+  BusinessPartnerCommission,
+} from "../components/BussinessOpportunityPages";
 
 
 const BussinessOpportunity = () => {
   return (
     <div>
       <BusinessPartner01 />
-      <BusinessPartner02/>
+      <BusinessPartnerBenefits />
+      <BusinessPartnerCommission />
+      <BusinessPartner02 />
     </div>
   );
 };

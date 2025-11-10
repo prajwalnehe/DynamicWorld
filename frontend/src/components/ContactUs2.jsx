@@ -70,7 +70,7 @@ const mapLink = (address) =>
   )}`;
 
 const Card = ({ city, phone, tel, address }) => (
-  <div className="group rounded-2xl bg-gray-50 shadow-sm ring-1 ring-gray-200 p-5 sm:p-6 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5">
+  <div className="group rounded-2xl bg-white shadow-sm ring-1 ring-[#DDD9CF] p-5 sm:p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
     <div className="flex items-start gap-4">
       <div
         className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-[#3E96F4] ring-1 ring-blue-100"
@@ -89,12 +89,12 @@ const Card = ({ city, phone, tel, address }) => (
       <div className="min-w-0">
         <div className="flex items-center gap-2 flex-wrap">
           <h3 className="text-lg font-semibold text-[#31393C]">{city}</h3>
-          <span className="text-xs px-2 py-0.5 rounded-full bg-[#EDEEEB] text-[#31393C] ring-1 ring-gray-200">
+          <span className="text-xs px-2 py-0.5 rounded-full bg-[#EDEEEB] text-[#31393C] ring-1 ring-[#DDD9CF]">
             {phone}
           </span>
         </div>
 
-        <p className="mt-2 text-sm text-gray-700 line-clamp-3">{address}</p>
+        <p className="mt-2 text-sm text-[#31393C]/75 line-clamp-3">{address}</p>
 
         <div className="mt-4 flex flex-wrap gap-3">
           <a
@@ -107,7 +107,7 @@ const Card = ({ city, phone, tel, address }) => (
             href={mapLink(address)}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center rounded-lg bg-gray-100 px-4 py-2 text-xs lg:text-sm  font-medium text-[#31393C] ring-1 ring-gray-200 transition-all hover:bg-gray-200 hover:-translate-y-0.5"
+            className="inline-flex items-center justify-center rounded-lg bg-[#31393C] px-4 py-2 text-xs lg:text-sm  font-medium text-white transition-all hover:bg-[#1f2426] hover:-translate-y-0.5"
           >
             Open in Maps
           </a>
@@ -122,7 +122,7 @@ const SectionHeader = ({ label }) => (
     <h2 className="text-base sm:text-lg font-semibold text-[#31393C]">
       {label}
     </h2>
-    <span className="h-px flex-1 mx-4 bg-gray-200" />
+    <span className="h-px flex-1 mx-4 bg-[#DDD9CF]" />
   </div>
 );
 
@@ -137,7 +137,7 @@ const ContactUs2 = () => {
     .sort((a, b) => a.city.localeCompare(b.city));
 
   return (
-    <div className="w-full bg-[#EDEEEB]">
+    <section className="w-full bg-gradient-to-b from-[#FFFFFF] via-[#EDEEEB] to-[#CCC7BF]/25">
       {/* Top banner */}
       <div className="bg-[#3E96F4] text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
@@ -157,7 +157,7 @@ const ContactUs2 = () => {
 
       {/* Content */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-10">
-        <div className="rounded-2xl bg-white shadow-sm ring-1 ring-gray-200 p-4 sm:p-6">
+        <div className="rounded-2xl bg-white shadow-sm ring-1 ring-[#DDD9CF] p-4 sm:p-6">
           {/* India section */}
           {indian.length > 0 && (
             <>
@@ -185,9 +185,9 @@ const ContactUs2 = () => {
 
         {/* Bottom CTA */}
         <div className="mt-6 sm:mt-8">
-          <div className="rounded-2xl bg-white shadow-sm ring-1 ring-gray-200 p-4 sm:p-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="rounded-2xl bg-white shadow-sm ring-1 ring-[#DDD9CF] p-4 sm:p-6 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-center md:text-left">
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-[#31393C]/70">
                 Need help choosing a course?
               </p>
               <h4 className="text-base sm:text-lg font-semibold text-[#31393C]">
@@ -203,7 +203,7 @@ const ContactUs2 = () => {
               </a>
               <a
                 href="#video-counselling"
-                className="inline-flex items-center justify-center rounded-lg bg-gray-100 px-4 py-2.5 text-xs lg:text-sm  font-medium text-[#31393C] ring-1 ring-gray-200 transition-all hover:bg-gray-200 hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center rounded-lg bg-[#31393C] px-4 py-2.5 text-xs lg:text-sm  font-medium text-white transition-all hover:bg-[#1f2426] hover:-translate-y-0.5"
               >
                 Video Counselling
               </a>
@@ -211,7 +211,7 @@ const ContactUs2 = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

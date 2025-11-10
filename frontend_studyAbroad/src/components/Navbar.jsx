@@ -5,6 +5,8 @@ const LINKS = [
   { to: "/immigration", label: "Immigration" },
   { to: "/visa-services", label: "Visa Services" },
   { to: "/about-us", label: "About Us" },
+  { to: "/mbbs-in-abroad", label: "MBBS In Abroad" },
+
 ];
 
 const Navbar = () => {
