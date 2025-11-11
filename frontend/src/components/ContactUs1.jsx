@@ -35,7 +35,7 @@ const ContactUs1 = () => {
       {/* Cards Section */}
       <main className="py-20 flex justify-center items-center">
         <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 px-4 lg:px-0">
             {/* Helpline */}
             <div className="group rounded-2xl bg-white shadow-sm ring-1 ring-[#DDD9CF] p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
               <div className="flex items-start gap-4">

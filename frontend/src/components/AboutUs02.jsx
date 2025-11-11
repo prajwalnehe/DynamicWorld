@@ -5,11 +5,11 @@ const AboutUs02 = () => {
     () => [
       {
         title: "Mission",
-        accent: "#3E96F4",
+        accent: "#FF6B6B",
         iconColor: "#FFFFFF",
-        panelBg: "#E1F1FF",
-        headingClass: "text-[#31393C]",
-        bodyClass: "text-[#31393C]/70",
+        panelBg: "#FFE3E3",
+        headingClass: "text-[#1A1F3B]",
+        bodyClass: "text-[#414866]",
         icon: (
           <img
             src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762766002/target_nfb7jb.png"
@@ -23,11 +23,11 @@ const AboutUs02 = () => {
       },
       {
         title: "Vision",
-        accent: "#31393C",
+        accent: "#4C6EF5",
         iconColor: "#FFFFFF",
-        panelBg: "#F0FFFF",
-        headingClass: "text-[#31393C]",
-        bodyClass: "text-[#31393C]/70",
+        panelBg: "#E0E7FF",
+        headingClass: "text-[#1A1F3B]",
+        bodyClass: "text-[#414866]",
         icon: (
           <img
             src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762766002/vision_jfwwme.png"
@@ -41,11 +41,11 @@ const AboutUs02 = () => {
       },
       {
         title: "Values",
-        accent: "#CCC7BF",
-        iconColor: "#31393C",
-        panelBg: "#E9F9EE",
-        headingClass: "text-[#31393C]",
-        bodyClass: "text-[#31393C]/70",
+        accent: "#2EC4B6",
+        iconColor: "#0B0D17",
+        panelBg: "#CCF5EE",
+        headingClass: "text-[#0B0D17]",
+        bodyClass: "text-[#225E59]",
         icon: (
           <img
             src="https://res.cloudinary.com/dtaitsw4r/image/upload/v1762766002/authenticity_llobou.png"
@@ -76,19 +76,19 @@ const AboutUs02 = () => {
   const handleNext = () => scrollToIndex((active + 1) % slides.length);
 
   return (
-    <section className="w-full bg-[#FFFFFF]">
+    <section id="about-us-mission" className="w-full bg-white text-[#1f2937]">
       <div className="max-w-6xl mx-auto px-6 py-14">
         {/* Heading (optional minimal) */}
         <div className="mb-6 sm:mb-8 flex items-end justify-between">
-          <h2 className="text-xl font-semibold text-[#31393C] tracking-[0.12em] uppercase">
+          <h2 className="text-xl font-semibold text-[#1d4ed8] tracking-[0.18em] uppercase">
             What drives us
           </h2>
           {/* Controls visible on sm- only (mobile). Hidden on md+ where grid is shown. */}
           <div className="flex items-center gap-2 sm:hidden">
-            <button aria-label="Previous" onClick={handlePrev} className="h-9 w-9 rounded-full ring-1 ring-[#CCC7BF] text-[#31393C] hover:bg-[#EDEEEB]">
+            <button aria-label="Previous" onClick={handlePrev} className="h-9 w-9 rounded-full border border-[#d1d5db] text-[#1f2937] hover:bg-[#f1f5f9]">
               ‹
             </button>
-            <button aria-label="Next" onClick={handleNext} className="h-9 w-9 rounded-full ring-1 ring-[#CCC7BF] text-[#31393C] hover:bg-[#EDEEEB]">
+            <button aria-label="Next" onClick={handleNext} className="h-9 w-9 rounded-full border border-[#d1d5db] text-[#1f2937] hover:bg-[#f1f5f9]">
               ›
             </button>
           </div>
@@ -105,20 +105,20 @@ const AboutUs02 = () => {
               if (idx !== active) setActive(idx);
             }}
           >
-            {slides.map((s, i) => (
-              <div key={s.title} className="min-w-full snap-start px-1">
+            {slides.map((slide) => (
+              <div key={slide.title} className="min-w-full snap-start px-1">
                 <div
-                  className="mx-1 rounded-2xl p-6 shadow-sm"
-                  style={{ backgroundColor: s.panelBg }}
+                  className="mx-1 rounded-2xl p-6 shadow-lg"
+                  style={{ backgroundColor: slide.panelBg }}
                 >
                   <div
                     className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl"
-                    style={{ backgroundColor: s.accent, color: s.iconColor }}
+                    style={{ backgroundColor: slide.accent, color: slide.iconColor }}
                   >
-                    {s.icon}
+                    {slide.icon}
                   </div>
-                  <h3 className={`text-lg font-semibold ${s.headingClass}`}>{s.title}</h3>
-                  <p className={`mt-2 text-sm leading-relaxed ${s.bodyClass}`}>{s.text}</p>
+                  <h3 className={`text-lg font-semibold ${slide.headingClass}`}>{slide.title}</h3>
+                  <p className={`mt-2 text-sm leading-relaxed ${slide.bodyClass}`}>{slide.text}</p>
                 </div>
               </div>
             ))}
@@ -131,7 +131,7 @@ const AboutUs02 = () => {
                 key={i}
                 aria-label={`Go to slide ${i + 1}`}
                 onClick={() => scrollToIndex(i)}
-                className={`h-2 w-2 rounded-full ${i === active ? "bg-[#3E96F4]" : "bg-[#CCC7BF]"}`}
+                className={`h-2.5 w-2.5 rounded-full ${i === active ? "bg-[#1d4ed8]" : "bg-[#dbeafe]"}`}
               />
             ))}
           </div>
@@ -142,7 +142,7 @@ const AboutUs02 = () => {
           {slides.map((s) => (
             <div
               key={s.title}
-              className="rounded-2xl p-8 shadow-sm"
+              className="rounded-2xl p-8 shadow-xl"
               style={{ backgroundColor: s.panelBg }}
             >
               <div

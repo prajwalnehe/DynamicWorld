@@ -62,31 +62,31 @@ const BranchesWorld = () => {
 
   return (
     // Responsive Padding and Background
-    <div className="bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 py-12 sm:py-16 px-4">
+    <div className="bg-gradient-to-br from-[#f1f5f9] via-[#eef2ff] to-white py-12 sm:py-16 px-4 text-[#0f172a]">
       <div className="max-w-7xl mx-auto">
         {/* Section Header: Adjusted text and spacing for better mobile flow */}
         <div className="text-center mb-10 sm:mb-12">
           {/* Icon Box */}
-          <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl shadow-md mx-auto mb-3">
+          <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-[#2563eb] via-[#38bdf8] to-[#22d3ee] rounded-xl shadow-lg mx-auto mb-3">
             <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </div>
           {/* Heading */}
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-800 mb-2">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0f172a] mb-2">
             Branches Across The World
           </h2>
           {/* Subtitle */}
-          <p className="text-slate-600 text-sm sm:text-base mb-4">
+          <p className="text-[#475569] text-sm sm:text-base mb-4">
             Connecting communities globally with excellence
           </p>
           {/* Helpline/Call to Action */}
           <div className="inline-flex items-center gap-2 sm:gap-3 bg-white px-4 sm:px-6 py-2 rounded-full shadow-lg transition-shadow duration-300 hover:shadow-xl">
-            <Phone className="w-4 h-4 text-blue-600" />
-            <span className="text-slate-700 text-sm font-medium">
+            <Phone className="w-4 h-4 text-[#2563eb]" />
+            <span className="text-[#0f172a] text-sm font-medium">
               Helpline:
             </span>
             <a
               href="tel:+917887881060"
-              className="text-blue-600 font-bold text-sm sm:text-base hover:underline"
+              className="text-[#2563eb] font-bold text-sm sm:text-base hover:underline"
             >
               (+91) 788 788 1060
             </a>
@@ -98,8 +98,7 @@ const BranchesWorld = () => {
           {branches.map((branch, index) => (
             <div
               key={index}
-              // Added hover effect for better user experience
-              className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col items-center p-3 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
+              className="bg-white border border-[#e2e8f0] rounded-lg overflow-hidden flex flex-col items-center p-3 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
             >
               {/* Image Container: Kept aspect ratio but made it responsive */}
               <div className="h-16 w-16 sm:h-20 sm:w-20 flex items-center justify-center rounded-md">
@@ -112,12 +111,12 @@ const BranchesWorld = () => {
 
               {/* Content: Adjusted text sizes for optimal fit */}
               <div className="mt-2 text-center w-full">
-                <h3 className="text-sm sm:text-base font-semibold text-slate-800 truncate">
+                <h3 className="text-sm sm:text-base font-semibold text-[#0f172a] truncate">
                   {branch.name}
                 </h3>
                 {/* Location: Adjusted font and icon size */}
-                <div className="flex justify-center items-center gap-1 mt-1 text-xs text-slate-500">
-                  <MapPin className="w-3 h-3 text-blue-500 flex-shrink-0" />
+                <div className="flex justify-center items-center gap-1 mt-1 text-xs text-[#475569]">
+                  <MapPin className="w-3 h-3 text-[#2563eb] flex-shrink-0" />
                   <p className="truncate px-1" title={branch.location}>
                     {branch.location}
                   </p>
@@ -129,7 +128,7 @@ const BranchesWorld = () => {
 
         {/* Footer Note */}
         <div className="text-center mt-10">
-          <p className="text-slate-500 text-xs sm:text-sm">
+          <p className="text-[#64748b] text-xs sm:text-sm">
             Expanding our reach to serve you better worldwide
           </p>
         </div>
